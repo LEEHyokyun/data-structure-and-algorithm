@@ -61,7 +61,7 @@
 ## 8. 덱
 
 > Head In/Out and Tail In/Out
-- 
+- 자유로운 데이터 삽입 및 제거가 가능한 자료구조.
 
 ## Appendix. 알고리즘의 구현 전략
 
