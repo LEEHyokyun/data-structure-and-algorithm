@@ -1,7 +1,4 @@
-package basic.deque;
-
-import basic.doublyLinkedList.Node;
-import basic.hashTable.HashData;
+package basic.hashTable;
 
 public class DoublyLinkedList {
     // 시작노드
@@ -9,12 +6,12 @@ public class DoublyLinkedList {
     // 끝노드
     private Node tail;
     // 노드 수
-    private Long count;
+    private int count;
 
     public DoublyLinkedList(Node head, Node tail){
         this.head = head;
         this.tail = tail;
-        this.count = 0L;
+        this.count = 0;
     }
 
     public Node getHead() {
@@ -23,14 +20,14 @@ public class DoublyLinkedList {
 
     public void setHead(Node head) {}
 
-    public Long getCount() {
+    public int getCount() {
         return count;
     }
 
     public void setCount(Long count) {}
 
     //1
-    public void insertAt(Long index, HashData data){
+    public void insertAt(int index, HashData data){
         //Exception
         if(index > this.count || index < 0){
             throw new IndexOutOfBoundsException("Index out of bounds");
@@ -88,16 +85,16 @@ public class DoublyLinkedList {
     //3
     public void clear(){
         this.head = null;
-        this.count = 0L;
+        this.count = 0;
     }
 
     //4
-    public void insertLast(String data){
+    public void insertLast(HashData data){
         this.insertAt(this.getCount(), data);
     }
 
     //5
-    public void deleteAt(Long index){
+    public void deleteAt(int index){
         if(index > this.count || index < 0){
             throw new IndexOutOfBoundsException("Index out of bounds");
         }
@@ -158,4 +155,5 @@ public class DoublyLinkedList {
     public Node getTail(){
         return this.tail;
     }
+
 }
