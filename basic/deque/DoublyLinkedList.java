@@ -1,7 +1,6 @@
 package basic.deque;
 
-import basic.doublyLinkedList.Node;
-import basic.hashTable.HashData;
+import basic.deque.Node;
 
 public class DoublyLinkedList {
     // 시작노드
@@ -30,7 +29,7 @@ public class DoublyLinkedList {
     public void setCount(Long count) {}
 
     //1
-    public void insertAt(Long index, HashData data){
+    public void insertAt(Long index, String data){
         //Exception
         if(index > this.count || index < 0){
             throw new IndexOutOfBoundsException("Index out of bounds");
