@@ -4,7 +4,7 @@ import basic.doublyLinkedList.DoublyLinkedList;
 import basic.doublyLinkedList.Node;
 
 public class Queue {
-    private DoublyLinkedList doublyLinkedList = new DoublyLinkedList(new Node("1", null, null);
+    private DoublyLinkedList doublyLinkedList = new DoublyLinkedList(null, null);
 
     public Queue(DoublyLinkedList doublyLinkedList){
         this.doublyLinkedList = doublyLinkedList;
