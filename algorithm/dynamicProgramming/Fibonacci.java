@@ -1,5 +1,6 @@
 package algorithm.dynamicProgramming;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 
 public class Fibonacci {
@@ -22,5 +23,18 @@ public class Fibonacci {
             memo.put(n, fibonacciWithMemoization(n-1, memo) + fibonacciWithMemoization(n-2, memo));
 
         return memo.get(n);
+    }
+
+    public int fibonacciWithTabulation(int n, HashMap<Integer, Integer> tab){
+        if(n <= 1) return n;
+
+        for(int i = 0 ; i < n ; i++){
+            if(i == 0) tab.put(i, 0);
+            if(i == 1) tab.put(i, 1);
+
+            tab.put(i, tab.get(i-1) + tab.get(i-2));
+        }
+
+        return tab.get(n);
     }
 }
