@@ -76,4 +76,18 @@ public class BinaryTree {
             System.out.println(tree.getData());
 
     }
+
+    public BinaryTree removeLeftSubTree(){
+        BinaryTree leftSubTree = this.leftSubTree;
+        this.leftSubTree = null;
+
+        return leftSubTree;
+    }
+
+    public BinaryTree removeRightSubTree(){
+        BinaryTree rightSubTree = this.rightSubTree;
+        this.rightSubTree = null;
+
+        return rightSubTree;
+    }
 }

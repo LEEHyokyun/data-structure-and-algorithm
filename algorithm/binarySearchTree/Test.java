@@ -20,7 +20,12 @@ public class Test {
         bst.insert(37);
         bst.getBinaryTree().inOrderTraversal(bst.getBinaryTree());
 
-        bst.search(6);
-        bst.search(1);
+        //bst.search(6);
+        //bst.search(1);
+
+        System.out.println("이진탐색트리 제거");
+        bst.remove(10);
+        bst.remove(55);
+        bst.getBinaryTree().inOrderTraversal(bst.getBinaryTree());
     }
 }
