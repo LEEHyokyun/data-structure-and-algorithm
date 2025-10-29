@@ -4,6 +4,7 @@ public class BinaryTree {
     private Integer data;
     private BinaryTree leftSubTree;
     private BinaryTree rightSubTree;
+    private int height;
 
     public BinaryTree(Integer data) {
         this.data = data;
@@ -15,6 +16,7 @@ public class BinaryTree {
         this.data = data;
         this.leftSubTree = leftSubTree;
         this.rightSubTree = rightSubTree;
+        this.height = 1;
     }
 
     public Integer getData(){
@@ -41,6 +43,9 @@ public class BinaryTree {
         this.rightSubTree = rightSubTree;
     }
 
+    public int getHeight() {return this.height;}
+
+    public void setHeight(int height) {this.height = height;}
     /*
     * 전위순회
     * */
