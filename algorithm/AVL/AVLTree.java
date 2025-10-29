@@ -172,5 +172,112 @@ public class AVLTree {
         return targetRootTree;
     }
 
+    //하향식 접근(재귀적 상향)을 통한 불균형 해결(제거)
+    public BinaryTree remove(BinaryTree targetRootTree, BinaryTree parentTree, int data){
+        if(targetRootTree.getData() > data && targetRootTree.getLeftSubTree() != null){
+            //제거 후 해당 제거된 노드를 대체하는 자식노드를 리턴하여 이 노드를 서브트리로 구성해주는 재귀적 호출.
+            targetRootTree.setLeftSubTree(this.remove(targetRootTree.getLeftSubTree(), targetRootTree, data));
+        }else if(targetRootTree.getData() < data && targetRootTree.getRightSubTree() != null){
+            //위와 마찬가지 원리
+            targetRootTree.setRightSubTree(this.remove(targetRootTree.getRightSubTree(), targetRootTree, data));
+        }else if(targetRootTree.getData() == data){
+            //삭제할 노드를 찾은 경우
+            targetRootTree = this.removeHelepr(targetRootTree, parentTree, data);
 
+            //루트노드를 삭제하는 경우
+            if(parentTree == null && targetRootTree != null){
+                //높이 업데이트
+                this.updateHeight(targetRootTree);
+
+                //균형 복구
+                BinaryTree unBalancedTree = this.getUnBalancedTree(targetRootTree);
+                targetRootTree = this.rotate(targetRootTree, unBalancedTree.getData());
+            }
+
+            return targetRootTree;
+        }
+
+        //높이 업데이트
+        this.updateHeight(targetRootTree);
+
+        //균형 복구
+        BinaryTree unBalancedTree = this.getUnBalancedTree(targetRootTree);
+        targetRootTree = this.rotate(targetRootTree, unBalancedTree.getData());
+
+        return targetRootTree;
+    }
+
+    //삭제한 노드를 대체하는 노드 리턴(=그의 자식노드)
+    public BinaryTree removeHelepr(BinaryTree deletingTree, BinaryTree parentTree, int data){
+        //root node 제거 시 필요한 임시부모노드
+        BinaryTree tempParentTree = new BinaryTree(0);
+        tempParentTree.setRightSubTree(deletingTree);
+
+        if(parentTree == null){
+            parentTree = tempParentTree;
+        }
+
+        BinaryTree deletingTreeChild = null;
+
+        //case 1 : 자식 노드가 없는 터미널 노드 제거
+        if(deletingTree.getLeftSubTree() == null && deletingTree.getRightSubTree() == null){
+            if(parentTree.getLeftSubTree() == deletingTree){
+                parentTree.removeLeftSubTree();
+            }else{
+                parentTree.removeRightSubTree();
+            }
+        }
+        //case 2 : 자식 노드가 1개 존재하는 인터벌 노드 제거
+        else if((deletingTree.getLeftSubTree() == null && deletingTree.getRightSubTree() != null)
+                || (deletingTree.getLeftSubTree() != null && deletingTree.getRightSubTree() == null)){
+
+
+            if(deletingTree.getLeftSubTree() != null){
+                deletingTreeChild = deletingTree.getLeftSubTree();
+            }else{
+                deletingTreeChild = deletingTree.getRightSubTree();
+            }
+
+            if(parentTree.getLeftSubTree() == deletingTree){
+                parentTree.setLeftSubTree(deletingTreeChild);
+            }else{
+                parentTree.setRightSubTree(deletingTreeChild);
+            }
+        }
+        //case 3 : 자식노드가 두개가 있을 경우
+        else{
+            BinaryTree replacingTree = deletingTree.getLeftSubTree();
+            BinaryTree replacingParentTree = deletingTree;
+
+            while(replacingTree.getRightSubTree() != null){
+                replacingParentTree = replacingTree;
+                replacingTree = replacingParentTree.getRightSubTree();
+
+            }
+
+            //데이터 교체
+            BinaryTree result = deletingTree;
+            System.out.println(result.getData() + " 노드를 제거합니다.");
+
+            deletingTree.setData(replacingTree.getData());
+            System.out.println(replacingTree.getData() + " 노드로 교체합니다.");
+
+            deletingTreeChild = replacingTree;
+
+            //이진트리 교체(교체노드의 왼쪽자식노드를 교체노드의 부모노드와 연결 **교체노드가 가장 크다는 것을 알기에 오른쪽 자식노드는 없음)
+            if(replacingParentTree.getLeftSubTree() == replacingTree){
+                replacingParentTree.setLeftSubTree(replacingTree.getLeftSubTree());
+            }else{
+                replacingParentTree.setRightSubTree(replacingTree.getLeftSubTree());
+            }
+
+        }
+
+        //루트노드를 제거하였을 경우 루토느도를 재설정
+        if(tempParentTree.getRightSubTree() != this.binaryTree){
+            this.binaryTree = tempParentTree.getRightSubTree();
+        }
+
+        return deletingTreeChild;
+    }
 }
