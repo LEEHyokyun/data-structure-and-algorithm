@@ -1,5 +1,7 @@
 package algorithm.priorityQueue.heap;
 
+import javax.naming.BinaryRefAddr;
+
 public class Heap {
     private BinaryTree rootTree;
     private BinaryTree lastInsertedTree;
@@ -112,5 +114,108 @@ public class Heap {
         }else{
             return null;
         }
+    }
+
+    //제거(제거 후 그 다음 우선순위 = lastIndex)
+    public BinaryTree remove(){
+        BinaryTree deletingTree = null;
+
+        //루트
+        if(this.lastInsertedTree == this.rootTree){
+            deletingTree = this.rootTree;
+            this.rootTree = null;
+            this.lastInsertedTree = null;
+
+            return deletingTree;
+        }
+
+        //이외(제거 후 마지막 인덱스 위치를 그 이전 위치로 이동시켜야 한다)
+        BinaryTree lastLastInsertedTree = this.getLastLastInsertedTree();
+
+        //제거
+        int tempData = this.rootTree.getData();
+        this.rootTree.setData(this.lastInsertedTree.getData());
+        this.lastInsertedTree.setData(tempData);
+
+        if(this.lastInsertedTree.getParentTree().getLeftSubTree() == this.lastInsertedTree){
+            this.lastInsertedTree.getParentTree().setLeftSubTree(null);
+        }else{
+            this.lastInsertedTree.getParentTree().setRightSubTree(null);
+        }
+        this.lastInsertedTree.setParentTree(null);
+
+        //반환 및 위치변경
+        deletingTree = this.lastInsertedTree;
+        this.lastInsertedTree = lastLastInsertedTree;
+
+        //우선순위 재배치
+        BinaryTree currentTree = this.rootTree;
+        do{
+            //최초 실행 반드시 보장
+            BinaryTree higherPriorityChildTree = this.getHigerPriorityChildTree(currentTree.getLeftSubTree(), currentTree.getRightSubTree());
+            if(higherPriorityChildTree == null)
+                break;
+            else{
+                if(!this.isPriorityBiggerXToY(currentTree.getData(), higherPriorityChildTree.getData())){
+                    int tempCurrentData = currentTree.getData();
+                    currentTree.setData(higherPriorityChildTree.getData());
+                    higherPriorityChildTree.setData(tempCurrentData);
+                    currentTree = higherPriorityChildTree;
+                }else{
+                    break;
+                }
+            }
+        }while(
+                currentTree.getLeftSubTree() != null || currentTree.getRightSubTree() != null
+        );
+
+        return deletingTree;
+    }
+
+    public BinaryTree getHigerPriorityChildTree(BinaryTree leftChildTree, BinaryTree rightChildTree){
+        if(leftChildTree == null){
+            return rightChildTree;
+        }else if(rightChildTree == null){
+            return leftChildTree;
+        }else {
+            if(this.isPriorityBiggerXToY(leftChildTree.getData(), rightChildTree.getData()))
+                return leftChildTree;
+            else
+                return rightChildTree;
+        }
+    }
+
+    public BinaryTree getLastLastInsertedTree(){
+        BinaryTree lastLastInsertedTree = null;
+
+        if(this.lastInsertedTree == this.lastInsertedTree.getParentTree().getLeftSubTree()){
+            BinaryTree currentTree = this.lastInsertedTree;
+            BinaryTree firstlyLeftLocatedSiblingTree = null;
+
+            while(currentTree.getParentTree().getLeftSubTree() != null){
+                currentTree = currentTree.getParentTree();
+                firstlyLeftLocatedSiblingTree = this.getLeftSiblingTree(currentTree);
+                if(firstlyLeftLocatedSiblingTree != null){
+                    break;
+                }
+            }
+
+            if(firstlyLeftLocatedSiblingTree != null){
+                while(firstlyLeftLocatedSiblingTree.getRightSubTree() != null){
+                    firstlyLeftLocatedSiblingTree = firstlyLeftLocatedSiblingTree.getRightSubTree();
+                }
+                lastLastInsertedTree = firstlyLeftLocatedSiblingTree;
+            }else{
+                currentTree = this.rootTree;
+                while(currentTree.getRightSubTree() != null){
+                    currentTree = currentTree.getRightSubTree();
+                }
+                lastLastInsertedTree = currentTree;
+            }
+        }else{
+            lastLastInsertedTree = this.lastInsertedTree.getParentTree().getLeftSubTree();
+        }
+
+        return lastLastInsertedTree;
     }
 }
