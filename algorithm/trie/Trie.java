@@ -35,7 +35,7 @@ public class Trie {
     }
 
     //search
-    public TrieNode search(String word, boolean isCounting){
+    public TrieNode search(String word){
         TrieNode currentNode = this.root;
         for(char ch : word.toCharArray()){
             if(currentNode.getChildrenNode(ch) != null){
