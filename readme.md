@@ -313,6 +313,11 @@
 - StringBuilder : 내부버퍼가 가변적(char[]), 내부 버퍼가 가득 차거나 append 시 다른 문자배열에 복사 후 교체, 내부구조 자체는 배열성격(연속된 할당공간/block), 데이터 쓰기작업이 어려운 대신 참조(읽기) 작업은 O(1).
 - StringBuffer : StringBuilder와 유사하나 멀티 스레드의 동기처리를 보장하기 위한 synchronized 기반 동작에서 차이, 스레드 안전성, 단일 스레드 상황에선 그만큼의 오버헤드 발생.
 
+- char -> String : String.valueOf
+- String -> char : toCharArray or chatAt(0)
+
+- set 출력 -> for(String string : set) or System.out...(set)
+
 - formatting : %s(문자열), %d(정수), %f(실수)
 
 - 문제의 해결단위가 문자(char) -> 매개변수를 문자, 내부적으로 파싱(String.valueOf)
