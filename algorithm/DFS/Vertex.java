@@ -1,23 +1,22 @@
-package algorithm.graph;
+package algorithm.DFS;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Vertex {
-    private int data;
+    private String data;
     private ArrayList<Vertex> adjacencyList;
 
     public Vertex(){}
 
-    public Vertex(int data){
+    public Vertex(String data){
         this.data = data;
     }
 
-    public int getData(){
+    public String getData(){
         return this.data;
     };
 
-    public void setData(int data) {
+    public void setData(String data) {
         this.data = data;
     }
 
@@ -30,8 +29,7 @@ public class Vertex {
             adjacencyList = new ArrayList<>();
             this.adjacencyList.add(neighbor);
         }else
-            this.adjacencyList.add(neighbor);
-
+            adjacencyList.add(neighbor);
     }
 
     public void removeAdjacencyList(Vertex neighbor){
