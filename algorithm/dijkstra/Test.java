@@ -46,5 +46,6 @@ public class Test {
         daegu.addAdjacenctCities(jeonju, 130D);
 
         dijkstra.Dijkstra(seoul, daegu);
+
     }
 }
