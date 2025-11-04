@@ -40,24 +40,25 @@ public class Dijkstra {
 
         //dijkstra
         while(!unvisitedCities.isEmpty()){
-            WeightedGraphCityVertex nextCityVertex = null;
+            //최초 상태를 정의하며, 이 이후에 그 상태가 항상 누적된다(*객체비교).
+            WeightedGraphCityVertex currentCityVertex = null;
 
             for(WeightedGraphCityVertex cityVertex: unvisitedCities.values()){
-                if(nextCityVertex == null || dijkstraTable.get(cityVertex.getName()) < dijkstraTable.get(nextCityVertex.getName())){
-                    nextCityVertex = cityVertex;
+                if(currentCityVertex == null || dijkstraTable.get(cityVertex.getName()) < dijkstraTable.get(currentCityVertex.getName())){
+                    currentCityVertex = cityVertex;
                 }
             }
 
             //다음 방문 도시를 방문도시로 넣고 미방문 도시에서 제거
-            visitedCities.put(nextCityVertex.getName(), unvisitedCities.get(nextCityVertex.getName()));
-            unvisitedCities.remove(nextCityVertex.getName());
+            visitedCities.put(currentCityVertex.getName(), unvisitedCities.get(currentCityVertex.getName()));
+            unvisitedCities.remove(currentCityVertex.getName());
 
-            for(String adjacentCity : visitedCities.get(nextCityVertex.getName()).getAdjacenctCities().keySet()){
+            for(String adjacentCity : visitedCities.get(currentCityVertex.getName()).getAdjacenctCities().keySet()){
                 if(unvisitedCities.get(adjacentCity) == null){
                     continue;
                 }
 
-                Double distance = dijkstraTable.get(nextCityVertex.getName()) + visitedCities.get(nextCityVertex.getName()).getAdjacenctCities().get(adjacentCity);
+                Double distance = dijkstraTable.get(currentCityVertex.getName()) + visitedCities.get(currentCityVertex.getName()).getAdjacenctCities().get(adjacentCity);
 
                 if(dijkstraTable.get(adjacentCity) > distance){
                     dijkstraTable.put(adjacentCity, distance);
