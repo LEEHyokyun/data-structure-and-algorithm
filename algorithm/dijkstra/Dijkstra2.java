@@ -45,7 +45,6 @@ public class Dijkstra2 {
          * 인접노드에 대해 방문하지 않아도 이미 그 노드에 방문하기 전까지의 경로가 모두 누적갱신된 상태.
          * */
         while(!unvisitedCities.isEmpty()){
-            //최초 상태를 정의하며, 이 이후에 그 상태가 항상 누적된다(*객체비교).
             WeightedGraphCityVertex currentCityVertex = null;
 
             /*
