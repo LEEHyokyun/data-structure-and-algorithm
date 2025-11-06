@@ -312,6 +312,11 @@
 - 에드먼드 카프 알고리즘은 너비우선탐색 및 탐욕알고리즘을, 포드 폴커슨 알고리즘은 깊이우선탐색 및 탐욕알고리즘을 사용한다.
 - 흐른 유량만큼 역방향 상수도관을 가상으로 설치하며, 이는 최적의 경로를 찾기 위한 상쇄(unDo) 개념으로 사용한다.
 
+## 27. 인터벌 스케쥴링
+
+> 겹치는 세션없이 많은 세션을 들을 수 있는 방법, 탐욕 알고리즘의 구현 방법을 묻는 대표적인 문제이기도 하다.
+- "종료시간이 가장 이른 세션"부터 선택하는 방법을 찾는다.
+
 ## 어려운 알고리즘 문제들을 접근하기 위한 개념 - 결정문제, N, NP
 
 > [결정문제]
@@ -369,23 +374,35 @@
 
 ## 이 외 유의하면 좋은 정보들
 
+[String vs StringBuilder vs StringBuffer]
 - String : 불변한 객체, 변수 로딩시 상수풀(Interned pool)에 저장된 불변 String 객체 지정, 동일 리터럴이면 재사용, 가장 빠르지만 상수 사용
 - StringBuilder : 내부버퍼가 가변적(char[]), 내부 버퍼가 가득 차거나 append 시 다른 문자배열에 복사 후 교체, 내부구조 자체는 배열성격(연속된 할당공간/block), 데이터 쓰기작업이 어려운 대신 참조(읽기) 작업은 O(1).
 - StringBuffer : StringBuilder와 유사하나 멀티 스레드의 동기처리를 보장하기 위한 synchronized 기반 동작에서 차이, 스레드 안전성, 단일 스레드 상황에선 그만큼의 오버헤드 발생.
 
+[char vs String]
 - char -> String : String.valueOf
 - String -> char : toCharArray or chatAt(0)
 
+- 문제의 해결단위가 문자(char) -> 매개변수를 문자, 내부적으로 파싱(String.valueOf)
+- 문제의 해결단위가 문자열(String) -> 매개변수를 문자열
+
+[set]
 - set 출력 -> for(String string : set) or System.out...(set)
 
+[String.format]
 - formatting : %s(문자열), %d(정수), %f(실수)
 
-- 문제의 해결단위가 문자(char) -> 매개변수를 문자, 내부적으로 파싱(String.valueOf)
-- 문제의 해결단위가 문자열(String) -> 매개변수를 문자열 
-
+[Top down vs bottom top]
 - 문제해결과정 상관없이 문제 해결진입점이 큰 문제라면 하향식 접근(Top-Down), 작은 문제부터라면 상향식 접근(Down-Top)이다.
 - 다만 문제해결과정이 분할정복일 경우 재귀적 상향, 그 반대라면 재귀적 하향이다.
 
+[ArrayList vs LinkedList]
+- LinkedList 선택할 이유: 중간 삽입/삭제가 매우 빈번할 때
+- ArrayList 선택할 이유: 정렬/탐색/반복이 핵심일 때
+
+(자료구조의 특성적 차이)
+* ArrayList = 동적 배열 (연속된 메모리)
+* LinkedList = 연결 리스트 (비연속 메모리, 노드 연결)
 
 ## 자료구조별 Big-O 성능
 
