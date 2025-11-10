@@ -15,6 +15,7 @@ public class TSP {
     * 중간결과의 저장 = 특정 도시 -> O번 도시로 가는 비용의 반영
     */
     public int tsp(int city, int visited_cities){
+        
         int[][] dpTable = new int[costs.length][(1 << costs.length) - 1];
 
         for(int[] row : dpTable){
