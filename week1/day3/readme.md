@@ -1,19 +1,42 @@
-## 1. Day2
+## 1. Day3
 
-[정렬/계수정렬(Counting Sort)]
+[괄호(스택)]
 - Implements : 배운점 
-  - 입력받을때 BufferedReader = BufferedReader(new InputStreamReader(System.in)) 흐름으로 입력받는다.
-  - 출력시 StringBuilder 및 System.out.println(StringBuilder) 흐름으로 출력한다.
-  - char[]을 활용한 정렬일 경우(br.readLine().toCharArray()) Comparator사용불가, sort(정방향 정렬) 사용 및 자체구현한다.
-  - "정렬"은 ArrayList가 편하고 성능적으로 가장 유리하다. "중복제거"라 해서 Set 자료구조를 이용하는것은 기능적/성능적으로 불리하다.
-  - Arrays.sort의 평균적인 시간복잡도는 O(NlogN), 계수정렬을 사용할 경우 O(N+K)로, mot num이 작다면 Arrays.sort보다 성능적으로 유리할 수 있다.
-  - 빈도 기반 통계 알고리즘(계수정렬)을 활용하는 순간, 인덱스로 인해 "값의 순서는 보장"하며 이에 따라 빈도수 및 더미값(최초 초기값 = 0)이 저장된다.
-  - 중앙값과 최빈값은 계수배열의 빈도수를 활용하여 알고리즘을 구현한다. 
+  - sb.append(this.isBalanced(br.readLine())).append('\n'); -> !error: non-static variable this cannot be referenced from a static context
+  - 문자열 - String, 단일문자 추출 - charAt, 단일문자 - char(원시) / Character(참조)
+    - char 비교는 == 'c', character 비교는 equals(Object).
+  - Stack 자료구조에는 참조자료형만 가능하며, 원시자료형인 char에 대해 Character 참조자료형을 사용한다.
+  - BufferedReader를 사용할때 throws IOException을 자꾸 누락하는데 이 점 유의한다.
 - Improvements : 막혔던 지점 / 고민한 포인트
-  - 입출력부터 고민했는데 표준적인 방법을 알았고 이를 적극 활용하고자 함.
-  - 정렬 등을 위해선 기본적으로 최대한 원시자료형(Integer보다는 int)을 활용하도록 해야 함.
-    - Integer는 int를 Wrapping한 Wrapper 클래스로, 비교연산이 추가되어 오버헤드가 증가한다.
-  - 계수정렬의 개념과 이를 구현하는 방법에 대해 알 수 있었음.
+  - JVM이 main을 실행하기위한 객체를 만들 시간이 없다.
+    - 그렇기에 main은 static, 이에 대한 모든 함수는 static으로 호출해야 가능.
+    - non static = 인스턴스 메서드, 지금 인스턴스가 없으니까? 오류 발생한다.
+  - Stack 자료구조를 사용하라.
 - Additional : 추가적인 유의점들
-  - 계수정렬의 시간복잡도는 O(n+k)이고, Arrays.sort는 평균적으로 O(nlogn)), 단, n은 데이터의 개수, k는 데이터의 범위.
-  - 데이터의 범위가 작다면 계수정렬이 유리할 수 있다.
+  - main은 객체 없이 실행되는 static 메소드로, main 내부에서 직접 호출하려면 그 호출 함수도 무조건 static이어야 하며, 당연히 this를 통한 접근도 불가능하다(애초에 객체가 아니므로). 
+  - public "static" void main
+    - 나는 지금 이 함수를 "객체 없이" 부르고 있는가? → 그렇다면 static
+    - 나는 이 함수를 "객체에서 수행되는 기능"으로 사용하려는가? → 그렇다면 non-static
+    - main은 static이므로 객체 없고 this 없음 → static 아닌 메서드를 쓰려면 객체를 만들어야 함
+    - non-static을 호출한다는 것 자체가 그 객체의 "상태"를 정의하는 행위, static은 객체없이 호출하므로 non static한 함수를 호출하는 것은 모순.
+  - 원시자료형은 비교시 ==, 참조자료형은 비교시 equals
+
+| 타입                | 예시                                       | 비교 권장 방식                      | 이유                                                                 |
+| ----------------- | ---------------------------------------- | ----------------------------- | ------------------------------------------------------------------ |
+| `char` (기본형)      | `'('`, `'A'`                             | `==` 사용                       | 원시타입은 값 비교 → `==`가 정확하고 빠름                                         |
+| `Character` (참조형) | `Character ch`, `Character.valueOf('A')` | **가능하면 `==`, 필요시 `equals()`** | 오토박싱된 Character는 내부 캐싱 때문에 `==`로 비교 가능. 하지만 캐시 범위 밖이면 equals가 안전함. |
+
+| 질문                  | 답                                                     |
+| ------------------- | ----------------------------------------------------- |
+| 왜 static을 붙여야 해?    | main은 객체 없이 실행되므로, main 내부에서 직접 호출하려면 함수도 static이어야 함 |
+| 언제 static을 쓰는가?     | **객체에 속하지 않고, 클래스 차원에서 공통적으로 쓰일 때**                   |
+| 언제 non-static을 쓰는가? | **객체가 고유하게 가지는 상태(state)나 행동을 나타낼 때**                 |
+
+참고로 이런 호출 방법도 있음(static main에서 main 객체를 만들고 이 메인 객체에서 만든 함수를 non-static하게 호출)
+
+```java
+public static void main(String[] args) {
+Main m = new Main();
+sb.append(m.isBalanced(br.readLine()));
+}
+```
