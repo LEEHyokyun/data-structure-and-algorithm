@@ -14,7 +14,6 @@
   - 문자열 분리
     - StringTokenize command = new StringTokenize(String, {분리요소});, 문자열을 분리요소를 기준으로 분리한다.
     - command = nextToken, 만약 분리요소가 없어서 분리할 문자열이 없다면 NSE(No Such Element) 발생한다.
-  - 
 - Improvements : 막혔던 지점 / 고민한 포인트
   - 결과누적을 위해 Deque 구현체를 전역적으로 설정하고 매개변수로 전달
   - StringBuilder 출력 시 출력요소는 String, Int, Integer 모두 가능하므로 문제 상황에 맞게 구성.
