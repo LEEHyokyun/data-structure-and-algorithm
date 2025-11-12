@@ -30,6 +30,10 @@ public class Deque {
 
         String c1 = command.nextToken();
 
+        //String[] input = br.readLine().split(" ");
+        //String c1 = input[0];
+        //String c2 = input[1];
+
         int result = -99;
 
         switch(c1){
