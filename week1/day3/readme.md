@@ -14,6 +14,7 @@
     - 그렇기에 main은 static, 이에 대한 모든 함수는 static으로 호출해야 가능.
     - non static = 인스턴스 메서드, 지금 인스턴스가 없으니까? 오류 발생한다.
   - Stack 자료구조를 사용하라.
+    - pop(), push(), peek() (*맨 위의 요소를 확인)
 - Additional : 추가적인 유의점들
   - main은 객체 없이 실행되는 static 메소드로, main 내부에서 직접 호출하려면 그 호출 함수도 무조건 static이어야 하며, 당연히 this를 통한 접근도 불가능하다(애초에 객체가 아니므로). 
   - public "static" void main
