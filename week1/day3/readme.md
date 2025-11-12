@@ -7,6 +7,8 @@
     - char 비교는 == 'c', character 비교는 equals(Object).
   - Stack 자료구조에는 참조자료형만 가능하며, 원시자료형인 char에 대해 Character 참조자료형을 사용한다.
   - BufferedReader를 사용할때 throws IOException을 자꾸 누락하는데 이 점 유의한다.
+  - 더 복잡한 조건에서 분기처리를 어떻게 해야 하는가, else if에 조건을 넣으면 나머지 조건은 "무시"한다.
+  - br.readLine()을 중복 호출하면 누락 발생..!(line=br.readLine())로 선언 및 변수할당 동시에, 그리고 그 할당 문자열을 그대로 활용한다.
 - Improvements : 막혔던 지점 / 고민한 포인트
   - JVM이 main을 실행하기위한 객체를 만들 시간이 없다.
     - 그렇기에 main은 static, 이에 대한 모든 함수는 static으로 호출해야 가능.
