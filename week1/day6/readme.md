@@ -24,6 +24,10 @@
   - Queue 구현체는 LinkedList를 활용하자.
     - poll(), offer(item) 활용! (add, remove는 예외를 반환하는 차이) 
     - https://bezzang2.tistory.com/109
+  - util 활용하기!
+    - Collections.sort(houseCounts); --Collections API 이용하기
+    - houseCounts.sort(Comparator.naturalOrder()); -만들어놓은 ArrayList 그 자체를 Comparator API를 삽입하여 정렬하기\
+    - 받아온 값이 단일문자(charAt)일떄 이를 숫자로 변환할때, line.charAt(j) - '0';
 - Additional : 추가적인 유의점들
 
 [Details : BFS]
