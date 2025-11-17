@@ -1,6 +1,6 @@
 ## 1. Day1
 
-[slice/정렬]
+[slice/정렬/Comparator]
 - Implements : 배운점
   - Arrays.copyOfRange(array, from, to) : array배열을 from번째(from-1 인덱스)부터 to이전(to-1 인덱스)까지
   - 배열 정렬 시 Array.sort(array) or Arrays.sort(Comparator.naturalOrder())
