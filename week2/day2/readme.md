@@ -3,10 +3,20 @@
 [HashMap]
 - Implements : 배운점
   - HashMap이 성능적/구조적으로 훨씬 유리하며, getOrDefault/get/put/keySet/values/entrySet 등의 다양한 API 사용가능하다.
+  - 어느 정도 사고력이 필요하다. 이를 염두에 두고 문제풀이가 필요(Math.min(중복제거한 배열의 크기, 원본 배열의 반의 크기))
+  - map.getOrDefault(key, 0) 유용하게 사용 가능(Set처럼)
 - Improvements : 막혔던 지점 / 고민한 포인트
   - 최대한 여러가지 방안을 생각해본다.
     - for문을 계속 사용하기보다는 Arrays.sort 등을 이용해 푸는 방법도 있다.
 - Additional : 추가적인 유의점들
+
+[Arrays.stream(array).sum()/Arrays.stream(array).count()/distinct().~~]
+- stream을 활용하여 배열의 크기와 합을 구할 수 있다(API 적극 활용).
+- 이때 Integer.parseInt는 String > int로 변환하는 용이고 Long > Int할 경우 (int)로 형변환하는 것에 유의.
+int count = Integer.parseInt(Arrays.stream(nums).distinct().count());  //String > Integer / int
+int count = (int) Arrays.stream(nums).distinct().count(); // Long > int
+int count = Arrays.stream(nums).sum();
+int count = Arrays.stream(nums).distinct().sum();
 
 [HashTable vs HashMap]
 
