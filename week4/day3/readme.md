@@ -22,6 +22,9 @@
       - 이 순회가 계속 이루어지므로 조합 시 다른 인덱스를 보장한다.
     - return -> ways..sum = 0일때마다 ways++
     - stream에서 toArray는 말 그대로 "배열형태"로 변환하는 것이지, ArrayList와는 상관이 없다.
+    - 자료구조의 활용
+      - arrayList, set, treeset
+      - Treeset의 경우 add하면서 정렬이 동시에 진행된다.
 - Improvements : 막혔던 지점 / 고민한 포인트
   - 브루트포스, 백트래킹의 유형 문제에 대해 슬슬 감을 익혀야 한다.  
   - 조합문제를 마주하였을때의 마음가짐

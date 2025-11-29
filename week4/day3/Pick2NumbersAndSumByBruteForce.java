@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class Pick2NumbersAndSumByBruteForce {
     public int[] solution(int[] numbers) {
+        //Treeset -> add 시 정렬 동시에.
         Set<Integer> set = new HashSet<>();
 
         for(int i = 0 ; i < numbers.length ; i++){
