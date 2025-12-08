@@ -2,16 +2,18 @@
 
 [최대힙/우선순위큐]
 - Implements : 배운점(문제)
-  - 최대힙 자료구조를 그대로 이용하기
-  - 우선순위큐 + 시뮬레이션(시간흐름) + 구현(로직구현)
-    - Heap의 구현체인 PriorityQueue를 그대로 사용한다.
-      - 최소힙 : PriorityQueue
-      - 최대힙 : PriorityQueue(Collections.reverseOrder())
-    - 우선순위큐를 사용하여 작업소요시간 > 요청시각 순으로 요소를 정렬해놓는다.
-      - 비교기법 중요(lambda/Comparator/Comparable)
-    - 큐에 넣어진 시각이 겹쳐도 어차피 처리하는 항목은 겹치지 않는다 = 시간누적
-      - time = time + job[1]
-      - 반환시각을 구하고 이를 누적, 최종적으로 평균치 산출
+  - 30만개 : 배열 OK
+  - 100만개 : ArrayList OK
+    - 최대힙 자료구조를 그대로 이용하기
+    - 우선순위큐 + 시뮬레이션(시간흐름) + 구현(로직구현)
+      - Heap의 구현체인 PriorityQueue를 그대로 사용한다.
+        - 최소힙 : PriorityQueue
+        - 최대힙 : PriorityQueue(Collections.reverseOrder())
+      - 우선순위큐를 사용하여 작업소요시간 > 요청시각 순으로 요소를 정렬해놓는다.
+        - 비교기법 중요(lambda/Comparator/Comparable)
+      - 큐에 넣어진 시각이 겹쳐도 어차피 처리하는 항목은 겹치지 않는다 = 시간누적
+        - time = time + job[1]
+        - 반환시각을 구하고 이를 누적, 최종적으로 평균치 산출
 - Improvements : 작동원리/개선포인트(본질)
   - Heap
     - 완전이진트리 형태를 만족하면서 부모/자식 및 서브트리 간 규칙(정렬) 규칙을 만족하는 자료구조
