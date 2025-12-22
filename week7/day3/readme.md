@@ -12,9 +12,18 @@
   - boolean[] visited 필수!
     - Arrays.fill -> 1차원 기본, 할려면 for 순회 필요
     - boolean의 기본값은 false..visited에 대해서는 별도 초기화는 필요 없다.
+      - 접근
+        - arr[x][y]
+      - 선언
+        - new int[]{1,2}
 
 [유의사항]
 - Queue -> ArrayDeque / Stack -> Stack
 - 정렬
   - List<Integer> -> Collections.sort
   - List<int> -> Arrays.sort
+
+[문자 > 숫자]
+- 소문자 -> 숫자 : char c - 'a' 
+- 대문자 -> 숫자 : char c - 'A'
+- 숫자형태 : c - '0' (=숫자를 빼는 순간 숫자형태임)
