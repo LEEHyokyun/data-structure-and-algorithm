@@ -2,9 +2,9 @@
 
 주차별 코딩테스트 스케쥴 작성을 챗지피티에게 요청하기 위한 스크립트.
 
-나는 3개월의 코딩테스트 로드맵을 진행하고 있고, 현재까지 9주차까지 정상적으로 진행해왔다. 
+나는 3개월의 코딩테스트 로드맵을 진행하고 있고, 현재까지 10주차까지 정상적으로 진행해왔다. 
 
-단순히 문제 나열이 아니라, "3개월 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "10주차 코딩테스트 스케쥴표"를 작성해줘. 
+단순히 문제 나열이 아니라, "3개월 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "11주차 코딩테스트 스케쥴표"를 작성해줘. 
 단, 하루 두문제씩 6일치를 해주고, 1문제는 백준, 1문제는 프로그래머스로 이루어진 스케쥴표를 작성해줘. 
 
 다만, 문제를 선별할때 프로그래머스 214288번(모비스/멘토지정문제) 문제와 같이 "경진대회 수준의" 지나치게 어려운 문제는 시간낭비일뿐이니 코딩테스트 준비에 적합한, 적절한 난이도로 고려해줘. 표 형식은
@@ -18,8 +18,8 @@
 | **금요일** | 실버 3 | **2579 계단 오르기** — [https://www.acmicpc.net/problem/2579](https://www.acmicpc.net/problem/2579) | **1463 1로 만들기** — [https://www.acmicpc.net/problem/1463](https://www.acmicpc.net/problem/1463) | DP 점화식 설계 경험 |
 | **토요일** | 실버 3 | **1697 숨바꼭질** — [https://www.acmicpc.net/problem/1697](https://www.acmicpc.net/problem/1697) | **2667 단지번호붙이기** — [https://www.acmicpc.net/problem/2667](https://www.acmicpc.net/problem/2667) | BFS 기본 → 그 다음 DFS 응용 | 
 
-이 형태 그대로, 10주차 문제 및 링크를 반영한 스케쥴 표를 작성해주고 아래와 같이 1주차 ~ 9주차 동안의 스케쥴표를 공유해줄테니, 
-지금까지 풀었던 문제를 살펴보고 내가 위에서 말했던 실력향상에 적절한 10주차 스케쥴표를 작성해줘라. 
+이 형태 그대로, 11주차 문제 및 링크를 반영한 스케쥴 표를 작성해주고 아래와 같이 1주차 ~ 10주차 동안의 스케쥴표를 공유해줄테니, 
+지금까지 풀었던 문제를 살펴보고 내가 위에서 말했던 실력향상에 적절한 11주차 스케쥴표를 작성해줘라. 
 
 ## WEEK 1. 
 
@@ -87,6 +87,8 @@
 | **금요일** | 실버 1    | **1991 트리 순회** — [https://www.acmicpc.net/problem/1991](https://www.acmicpc.net/problem/1991)        | **길 찾기 게임** — [https://school.programmers.co.kr/learn/courses/30/lessons/42892](https://school.programmers.co.kr/learn/courses/30/lessons/42892)     | 트리 구조/순회 패턴 체화        |
 | **토요일** | 골드 5 입문 | **1753 최단경로** — [https://www.acmicpc.net/problem/1753](https://www.acmicpc.net/problem/1753)         | **배달** — [https://school.programmers.co.kr/learn/courses/30/lessons/12978](https://school.programmers.co.kr/learn/courses/30/lessons/12978)          | 다익스트라(최단 거리)의 정석 패턴   | 
 
+## WEEK 7.
+
 | 요일      | 난이도  | 문제 1 (백준)                                                                                        | 문제 2 (프로그래머스)                                                                                                                                    | 오늘의 포인트              |
 | ------- | ---- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
 | **월요일** | 실버 1 | **1931 회의실 배정** — [https://www.acmicpc.net/problem/1931](https://www.acmicpc.net/problem/1931)   | **구명보트** — [https://school.programmers.co.kr/learn/courses/30/lessons/42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885)    | 그리디의 정석(정렬 기준 설계)    |
@@ -96,6 +98,7 @@
 | **금요일** | 골드 5 | **7576 토마토** — [https://www.acmicpc.net/problem/7576](https://www.acmicpc.net/problem/7576)      | **단어 변환** — [https://school.programmers.co.kr/learn/courses/30/lessons/43163](https://school.programmers.co.kr/learn/courses/30/lessons/43163)   | BFS 레벨 개념 + 상태 전이    |
 | **토요일** | 골드 5 | **9663 N-Queen** — [https://www.acmicpc.net/problem/9663](https://www.acmicpc.net/problem/9663)  | **피로도** — [https://school.programmers.co.kr/learn/courses/30/lessons/87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946)     | 백트래킹 가지치기 완성         |
 
+## WEEK 8.
 
 | 요일      | 난이도  | 문제 1 (백준)                                                                                                  | 문제 2 (프로그래머스)                                                                                                                                           | 오늘의 포인트               |
 | ------- | ---- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
@@ -105,6 +108,9 @@
 | **목요일** | 실버 1 | **6236 용돈 관리** — [https://www.acmicpc.net/problem/6236](https://www.acmicpc.net/problem/6236)              | **입국 심사 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238)     | 이분 탐색 조건 설계 완성        |
 | **금요일** | 실버 1 | **11053 가장 긴 증가하는 부분 수열** — [https://www.acmicpc.net/problem/11053](https://www.acmicpc.net/problem/11053) | **정수 삼각형 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43105](https://school.programmers.co.kr/learn/courses/30/lessons/43105)    | DP 상태 정의 / 점화식 감각     |
 | **토요일** | 골드 5 | **10026 적록색약** — [https://www.acmicpc.net/problem/10026](https://www.acmicpc.net/problem/10026)            | **여행경로** — [https://school.programmers.co.kr/learn/courses/30/lessons/43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164)           | DFS 응용 + 방문 처리 심화     | 
+
+## WEEK 9.
+
 | 요일      | 난이도     | 문제 1 (백준)                                                                                           | 문제 2 (프로그래머스)                                                                                                                                             | 오늘의 포인트                 |
 | ------- | ------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | **월요일** | 실버 1    | **2512 예산** — [https://www.acmicpc.net/problem/2512](https://www.acmicpc.net/problem/2512)          | **예산** — [https://school.programmers.co.kr/learn/courses/30/lessons/12982](https://school.programmers.co.kr/learn/courses/30/lessons/12982)               | 이분탐색 vs 그리디 판단 / 상한선 개념 |
@@ -113,5 +119,16 @@
 | **목요일** | 실버 1    | **20922 겹치는 건 싫어** — [https://www.acmicpc.net/problem/20922](https://www.acmicpc.net/problem/20922) | **연속 부분 수열 합의 개수** — [https://school.programmers.co.kr/learn/courses/30/lessons/131701](https://school.programmers.co.kr/learn/courses/30/lessons/131701) | 투포인터 / 슬라이딩 윈도우 완성      |
 | **금요일** | 실버 1    | **1189 컴백홈** — [https://www.acmicpc.net/problem/1189](https://www.acmicpc.net/problem/1189)         | **피로도** — [https://school.programmers.co.kr/learn/courses/30/lessons/87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946)              | DFS 백트래킹 / 방문 처리 설계     |
 | **토요일** | 골드 5 입문 | **12851 숨바꼭질 2** — [https://www.acmicpc.net/problem/12851](https://www.acmicpc.net/problem/12851)   | **단어 변환** — [https://school.programmers.co.kr/learn/courses/30/lessons/43163](https://school.programmers.co.kr/learn/courses/30/lessons/43163)            | BFS 레벨 개념 + 경우의 수 관리    |
+
+## WEEK 10.
+
+| 요일      | 난이도     | 문제 1 (백준)                                                                                               | 문제 2 (프로그래머스)                                                                                                                                             | 오늘의 포인트               |
+| ------- | ------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| **월요일** | 실버 1    | **1309 동물원** — [https://www.acmicpc.net/problem/1309](https://www.acmicpc.net/problem/1309)             | **멀리 뛰기 (복습 관점)** — [https://school.programmers.co.kr/learn/courses/30/lessons/12914](https://school.programmers.co.kr/learn/courses/30/lessons/12914)    | DP 점화식 단순화 / 경우의 수 압축 |
+| **화요일** | 실버 1    | **21736 헌내기는 친구가 필요해** — [https://www.acmicpc.net/problem/21736](https://www.acmicpc.net/problem/21736) | **게임 맵 최단거리 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/1844](https://school.programmers.co.kr/learn/courses/30/lessons/1844)     | BFS 탐색 범위/조건 처리 안정화   |
+| **수요일** | 실버 1    | **2468 안전 영역** — [https://www.acmicpc.net/problem/2468](https://www.acmicpc.net/problem/2468)           | **전력망을 둘로 나누기 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/86971](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | DFS/BFS + 연결요소 사고 전환  |
+| **목요일** | 실버 1    | **1932 정수 삼각형** — [https://www.acmicpc.net/problem/1932](https://www.acmicpc.net/problem/1932)          | **땅따먹기 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/12913](https://school.programmers.co.kr/learn/courses/30/lessons/12913)        | DP 2차원 → 1차원 전이 감각    |
+| **금요일** | 실버 1    | **16401 과자 나눠주기** — [https://www.acmicpc.net/problem/16401](https://www.acmicpc.net/problem/16401)      | **예산 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/12982](https://school.programmers.co.kr/learn/courses/30/lessons/12982)          | 이분탐색 vs 그리디 판단 기준     |
+| **토요일** | 골드 5 입문 | **15686 치킨 배달** — [https://www.acmicpc.net/problem/15686](https://www.acmicpc.net/problem/15686)        | **피로도 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946)         | 백트래킹 + 조합 최적화 감각      |
 
 
