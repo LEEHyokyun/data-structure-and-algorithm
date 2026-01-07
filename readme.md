@@ -438,3 +438,21 @@
 | **병합 정렬 (Merge Sort)**     | 배열을 절반으로 분할하고 각각을 재귀적으로 정렬한 뒤, 두 부분을 병합하여 정렬.                | O(n log n) | O(n log n) | O(n log n) |    O(n)   |
 | **퀵 정렬 (Quick Sort)**      | 피벗을 기준으로 작은 값은 왼쪽, 큰 값은 오른쪽으로 분할하고 각 부분을 재귀적으로 정렬.           | O(n log n) |    O(n²)   | O(n log n) |  O(log n) |
 | **힙 정렬 (Heap Sort)**       | 배열을 힙(완전이진트리)으로 구성 후, 루트(최대/최소값)를 추출하고 재정렬을 반복.              | O(n log n) | O(n log n) | O(n log n) |    O(1)   |
+
+## DFS.
+
+- 전체순회가 필요하다.
+- DFS가 필요한 지점이 어디인지 먼저 고민
+
+- case1 : 1->2->3-> ... 2->1->3 순서가 상관이 있다면
+  - visited를 활용한 dfs인데
+  - start 조정이 필요없음
+- case2 : 1->2->3-> ... 2->3->.. 순서가 상관없는 조합이라면
+  - visited를 활용한 dfs인데
+  - start 조정이 최초 start + 1를 해야함
+
+> for case 1
+![img.png](img.png)
+
+> for case 2
+![img_1.png](img_1.png)
