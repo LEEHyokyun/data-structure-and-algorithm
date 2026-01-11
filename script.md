@@ -2,9 +2,9 @@
 
 주차별 코딩테스트 스케쥴 작성을 챗지피티에게 요청하기 위한 스크립트.
 
-나는 3개월의 코딩테스트 로드맵을 진행하고 있고, 현재까지 10주차까지 정상적으로 진행해왔다. 
+나는 3개월의 코딩테스트 로드맵을 진행하고 있고, 현재까지 11주차까지 정상적으로 진행해왔다. 
 
-단순히 문제 나열이 아니라, "3개월 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "11주차 코딩테스트 스케쥴표"를 작성해줘. 
+단순히 문제 나열이 아니라, "3개월 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "12주차 코딩테스트 스케쥴표"를 작성해줘. 
 단, 하루 두문제씩 6일치를 해주고, 1문제는 백준, 1문제는 프로그래머스로 이루어진 스케쥴표를 작성해줘. 
 
 다만, 문제를 선별할때 프로그래머스 214288번(모비스/멘토지정문제) 문제와 같이 "경진대회 수준의" 지나치게 어려운 문제는 시간낭비일뿐이니 코딩테스트 준비에 적합한, 적절한 난이도로 고려해줘. 표 형식은
@@ -18,8 +18,10 @@
 | **금요일** | 실버 3 | **2579 계단 오르기** — [https://www.acmicpc.net/problem/2579](https://www.acmicpc.net/problem/2579) | **1463 1로 만들기** — [https://www.acmicpc.net/problem/1463](https://www.acmicpc.net/problem/1463) | DP 점화식 설계 경험 |
 | **토요일** | 실버 3 | **1697 숨바꼭질** — [https://www.acmicpc.net/problem/1697](https://www.acmicpc.net/problem/1697) | **2667 단지번호붙이기** — [https://www.acmicpc.net/problem/2667](https://www.acmicpc.net/problem/2667) | BFS 기본 → 그 다음 DFS 응용 | 
 
-이 형태 그대로, 11주차 문제 및 링크를 반영한 스케쥴 표를 작성해주고 아래와 같이 1주차 ~ 10주차 동안의 스케쥴표를 공유해줄테니, 
-지금까지 풀었던 문제를 살펴보고 내가 위에서 말했던 실력향상에 적절한 11주차 스케쥴표를 작성해줘라. 
+이 형태 그대로, 12주차 문제 및 링크를 반영한 스케쥴 표를 작성해주고 아래와 같이 1주차 ~ 11주차 동안의 스케쥴표를 공유해줄테니, 
+지금까지 풀었던 문제를 살펴보고 내가 위에서 말했던 실력향상에 적절한 12주차 스케쥴표를 작성해줘라. 
+
+(*12주차는 3개월 로드맵의 마지막 주차이다.)
 
 ## WEEK 1. 
 
@@ -131,4 +133,14 @@
 | **금요일** | 실버 1    | **16401 과자 나눠주기** — [https://www.acmicpc.net/problem/16401](https://www.acmicpc.net/problem/16401)      | **예산 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/12982](https://school.programmers.co.kr/learn/courses/30/lessons/12982)          | 이분탐색 vs 그리디 판단 기준     |
 | **토요일** | 골드 5 입문 | **15686 치킨 배달** — [https://www.acmicpc.net/problem/15686](https://www.acmicpc.net/problem/15686)        | **피로도 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946)         | 백트래킹 + 조합 최적화 감각      |
 
+## WEEK 11. 
+
+| 요일      | 난이도     | 문제 1                                                                                                   | 문제 2                                                                                                                                              | 오늘의 포인트                |
+| ------- | ------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **월요일** | 실버 1    | **1389 케빈 베이컨의 6단계 법칙** — [https://www.acmicpc.net/problem/1389](https://www.acmicpc.net/problem/1389) | **가장 먼 노드** — [https://school.programmers.co.kr/learn/courses/30/lessons/49189](https://school.programmers.co.kr/learn/courses/30/lessons/49189)  | BFS 거리 누적 / 최단거리 배열 활용 |
+| **화요일** | 실버 1    | **2293 동전 1** — [https://www.acmicpc.net/problem/2293](https://www.acmicpc.net/problem/2293)           | **등굣길** — [https://school.programmers.co.kr/learn/courses/30/lessons/42898](https://school.programmers.co.kr/learn/courses/30/lessons/42898)      | DP 경우의 수 / 중복 제거 설계    |
+| **수요일** | 실버 1    | **15649 N과 M (1)** — [https://www.acmicpc.net/problem/15649](https://www.acmicpc.net/problem/15649)    | **소수 찾기** — [https://school.programmers.co.kr/learn/courses/30/lessons/42839](https://school.programmers.co.kr/learn/courses/30/lessons/42839)    | 백트래킹 기본형 + 순열 상태관리     |
+| **목요일** | 실버 1    | **2805 나무 자르기 (복습 관점)** — [https://www.acmicpc.net/problem/2805](https://www.acmicpc.net/problem/2805) | **징검다리 건너기** — [https://school.programmers.co.kr/learn/courses/30/lessons/64062](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | 이분탐색 조건 판단 / mid 검증    |
+| **금요일** | 실버 1    | **1912 연속합** — [https://www.acmicpc.net/problem/1912](https://www.acmicpc.net/problem/1912)            | **최댓값과 최솟값** — [https://school.programmers.co.kr/learn/courses/30/lessons/12939](https://school.programmers.co.kr/learn/courses/30/lessons/12939) | DP 1차원 압축 / 상태 유지      |
+| **토요일** | 골드 5 입문 | **1759 암호 만들기** — [https://www.acmicpc.net/problem/1759](https://www.acmicpc.net/problem/1759)         | **메뉴 리뉴얼** — [https://school.programmers.co.kr/learn/courses/30/lessons/72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411)   | 조합 + 조건 필터링 / 문자열 처리   |
 
