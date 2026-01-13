@@ -1,4 +1,4 @@
-package week12.day2;
+package week12.day1;
 
 public class JumpReverseDP {
     public int solution(int n) {
