@@ -11,7 +11,7 @@ public class AtoBAmbiguousCasesBFS {
 
     static int bfs(int target, int[] path, int n){
 
-        //int min = 1000001;
+        int min = 1000001;
 
         Queue<int[]> q = new ArrayDeque<>();
         q.offer(path);
@@ -23,8 +23,8 @@ public class AtoBAmbiguousCasesBFS {
             int count = curs[1];
 
             if(cur == target) {
-                //min = Math.min(min, count);
-                return count; //bfs - 최단경로 보장
+                min = Math.min(min, count);
+                return min; //bfs - 최단경로 보장
             }
 
             if(cur % 2 == 0){
