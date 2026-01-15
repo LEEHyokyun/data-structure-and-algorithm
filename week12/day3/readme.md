@@ -1,6 +1,6 @@
 [day3]
 
-[구현/Reverse DP/]
+[구현/Reverse DP/BFS]
 
 - A to B
   - 역방향 DP : B -> A
