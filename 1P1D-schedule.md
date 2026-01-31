@@ -1,0 +1,14 @@
+# Schedule
+
+목표는 하루에 1문제씩 꾸준히.
+
+## 1.
+
+| 요일      | 난이도  | 문제 1                                                                                                                                                         | 문제 2                                                                                                                                                | 오늘의 포인트              |
+| ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| **월요일** | 실버 1 | **1743 음식물 피하기** — [https://www.acmicpc.net/problem/1743](https://www.acmicpc.net/problem/1743)                                                              | **2468 안전 영역 (복습 변주)** — [https://www.acmicpc.net/problem/2468](https://www.acmicpc.net/problem/2468)                                               | DFS/BFS 연결요소 + 조건 분기 |
+| **화요일** | Lv.2 | **프린터** — [https://school.programmers.co.kr/learn/courses/30/lessons/42587](https://school.programmers.co.kr/learn/courses/30/lessons/42587)                 | **다리를 지나는 트럭** — [https://school.programmers.co.kr/learn/courses/30/lessons/42583](https://school.programmers.co.kr/learn/courses/30/lessons/42583) | 큐 시뮬레이션 / 상태 관리      |
+| **수요일** | 실버 1 | **1629 곱셈** — [https://www.acmicpc.net/problem/1629](https://www.acmicpc.net/problem/1629)                                                                   | **1074 Z** — [https://www.acmicpc.net/problem/1074](https://www.acmicpc.net/problem/1074)                                                           | 분할정복 사고 전환           |
+| **목요일** | Lv.2 | **전력망을 둘로 나누기 (변형 관점)** — [https://school.programmers.co.kr/learn/courses/30/lessons/86971](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | **모음사전** — [https://school.programmers.co.kr/learn/courses/30/lessons/84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512)       | DFS 트리 구조 / 순서 정의    |
+| **금요일** | 골드 4 | **9019 DSLR** — [https://www.acmicpc.net/problem/9019](https://www.acmicpc.net/problem/9019)                                                                 | **1339 단어 수학** — [https://www.acmicpc.net/problem/1339](https://www.acmicpc.net/problem/1339)                                                       | BFS 상태 전이 + 그리디 결합   |
+| **토요일** | Lv.3 | **네트워크** — [https://school.programmers.co.kr/learn/courses/30/lessons/43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162)                | **가장 긴 팰린드롬** — [https://school.programmers.co.kr/learn/courses/30/lessons/12904](https://school.programmers.co.kr/learn/courses/30/lessons/12904)  | 그래프 연결성 + 문자열 DP     |
