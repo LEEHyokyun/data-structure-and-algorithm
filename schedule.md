@@ -133,3 +133,14 @@
 | **목요일** | 실버 1 | **9465 스티커** — [https://www.acmicpc.net/problem/9465](https://www.acmicpc.net/problem/9465)           | **땅따먹기** — [https://school.programmers.co.kr/learn/courses/30/lessons/12913](https://school.programmers.co.kr/learn/courses/30/lessons/12913)           | DP 2차원 → 1차원 압축 사고        |
 | **금요일** | 실버 1 | **15663 N과 M (9)** — [https://www.acmicpc.net/problem/15663](https://www.acmicpc.net/problem/15663)   | **메뉴 리뉴얼 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411)    | 중복 제거 백트래킹 / 조합 설계        |
 | **토요일** | 골드 5 | **18428 감시 피하기** — [https://www.acmicpc.net/problem/18428](https://www.acmicpc.net/problem/18428)     | **거리두기 확인하기** — [https://school.programmers.co.kr/learn/courses/30/lessons/81302](https://school.programmers.co.kr/learn/courses/30/lessons/81302)      | 완전탐색 + 조건 검증 / 구현 마무리     |
+
+## WEEK 13.
+
+| 요일      | 난이도  | 문제 1                                                                                                                                                      | 
+| ------- | ---- |-----------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **월요일** | 실버 1 | **1743 음식물 피하기** — [https://www.acmicpc.net/problem/1743](https://www.acmicpc.net/problem/1743)                                                           |  
+| **화요일** | Lv.2 | **42587 큐와 우선순위 큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42587](https://school.programmers.co.kr/learn/courses/30/lessons/42587)  |  
+| **수요일** | 실버 1 | **1629 거듭제곱** — [https://www.acmicpc.net/problem/1629](https://www.acmicpc.net/problem/1629)                                                              |           
+| **목요일** | Lv.2 | **86971 전력망 둘로 나누기** — [https://school.programmers.co.kr/learn/courses/30/lessons/86971](https://school.programmers.co.kr/learn/courses/30/lessons/86971) |
+| **금요일** | 골드 4 | **9019 A to B** — [https://www.acmicpc.net/problem/9019](https://www.acmicpc.net/problem/9019)                                                            |  
+| **토요일** | Lv.3 | **43162 Networks** — [https://school.programmers.co.kr/learn/courses/30/lessons/43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162)   | 
