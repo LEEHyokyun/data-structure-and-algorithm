@@ -160,6 +160,18 @@
 
 ## WEEK 13.
 
+
+| 요일      | 난이도  | 문제 1                                                                                                                                                      | 
+| ------- | ---- |-----------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **월요일** | 실버 1 | **1743 음식물 피하기** — [https://www.acmicpc.net/problem/1743](https://www.acmicpc.net/problem/1743)                                                           |  
+| **화요일** | Lv.2 | **42587 큐와 우선순위 큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42587](https://school.programmers.co.kr/learn/courses/30/lessons/42587)  |  
+| **수요일** | 실버 1 | **1629 거듭제곱** — [https://www.acmicpc.net/problem/1629](https://www.acmicpc.net/problem/1629)                                                              |           
+| **목요일** | Lv.2 | **86971 전력망 둘로 나누기** — [https://school.programmers.co.kr/learn/courses/30/lessons/86971](https://school.programmers.co.kr/learn/courses/30/lessons/86971) |
+| **금요일** | 골드 4 | **9019 A to B** — [https://www.acmicpc.net/problem/9019](https://www.acmicpc.net/problem/9019)                                                            |  
+| **토요일** | Lv.3 | **43162 Networks** — [https://school.programmers.co.kr/learn/courses/30/lessons/43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162)   |
+
+## WEEK 14.
+
 | 요일      | 난이도  | 문제                                                                                                                                                     | 오늘의 포인트                 |
 | ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
 | **월요일** | 골드 5 | **1238 파티** — [https://www.acmicpc.net/problem/1238](https://www.acmicpc.net/problem/1238)                                                             | 다익스트라 왕복 거리 / 방향 그래프 처리 |
