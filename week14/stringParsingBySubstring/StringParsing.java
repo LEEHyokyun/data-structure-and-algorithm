@@ -1,4 +1,4 @@
-package week14;
+package week14.stringParsingBySubstring;
 
 import java.util.ArrayList;
 import java.util.HashMap;
