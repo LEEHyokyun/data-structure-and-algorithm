@@ -47,14 +47,17 @@ public class StringParsingAndArranging {
             idx++;
         }
 
+        //Comparator : 내부 연산이 음수면 a를 앞으로, 양수면 b를 앞으로 하라.
+        //a-b -> 오름차순 (사전순/숫자순/자연순)
+        //b-a -> 내림차순
         list.sort((a,b) -> {
 
-            int headCompareTo = a.head.toLowerCase().compareTo(b.head.toLowerCase());
+            int headCompareTo = a.head.toLowerCase().compareTo(b.head.toLowerCase()); //알파벳순
             if(headCompareTo != 0) return headCompareTo;
 
-            if(a.number != b.number) return a.number-b.number;
+            if(a.number != b.number) return a.number-b.number; //숫자순
 
-            return a.index - b.index;
+            return a.index - b.index; //입력순
 
         });
 
