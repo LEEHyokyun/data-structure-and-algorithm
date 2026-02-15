@@ -23,3 +23,14 @@
 | **목요일** | Lv.2 | **파일명 정렬 (카카오)** — [https://school.programmers.co.kr/learn/courses/30/lessons/17686](https://school.programmers.co.kr/learn/courses/30/lessons/17686)  | 문자열 파싱 / Comparator 설계  |
 | **금요일** | 골드 4 | **11054 가장 긴 바이토닉 부분 수열** — [https://www.acmicpc.net/problem/11054](https://www.acmicpc.net/problem/11054)                                             | LIS 응용 / DP 중급 전환       |
 | **토요일** | Lv.3 | **셔틀버스 (카카오)** — [https://school.programmers.co.kr/learn/courses/30/lessons/17678](https://school.programmers.co.kr/learn/courses/30/lessons/17678)    | 구현 + 시뮬레이션 / 시간 계산      |
+
+## 3. 
+
+| 요일               | 난이도    | 문제 1                                                                                                                                              | 문제 2 | 오늘의 포인트                      |
+| ---------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |------| ---------------------------- |
+| **월요일 (백준)**     | 실버 1   | **14940 쉬운 최단거리** — [https://www.acmicpc.net/problem/14940](https://www.acmicpc.net/problem/14940)                                                | -    | BFS 거리 배열 정확히 다루기            |
+| **화요일 (프로그래머스)** | Lv.2   | **괄호 회전하기** — [https://school.programmers.co.kr/learn/courses/30/lessons/76502](https://school.programmers.co.kr/learn/courses/30/lessons/76502)  | -    | 스택 + 문자열 회전 안정화              |
+| **수요일 (백준)**     | 실버 1   | **11403 경로 찾기** — [https://www.acmicpc.net/problem/11403](https://www.acmicpc.net/problem/11403)                                                  | -    | BFS/DFS로 경로 존재 판단 (인접행렬 다루기) |
+| **목요일 (프로그래머스)** | Lv.2   | **순위 검색** — [https://school.programmers.co.kr/learn/courses/30/lessons/72412](https://school.programmers.co.kr/learn/courses/30/lessons/72412)    | -    | 전처리 + 이분탐색 실전화 (조건 분해 능력)    |
+| **금요일 (백준)**     | 골드 5   | **1707 이분 그래프** — [https://www.acmicpc.net/problem/1707](https://www.acmicpc.net/problem/1707)                                                    | -    | 그래프 색칠 / BFS 응용              |
+| **토요일 (프로그래머스)** | Lv.2~3 | **주차 요금 계산** — [https://school.programmers.co.kr/learn/courses/30/lessons/92341](https://school.programmers.co.kr/learn/courses/30/lessons/92341) | -    | 문자열 파싱 + 구현 안정성              |
