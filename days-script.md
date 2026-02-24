@@ -4,7 +4,7 @@
 
 나는 하루에 1문제씩, 월요일부터 토요일까지 6일 분량의 알고리즘 문제를 꾸준히 풀어보고자 한다.
 
-다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "15주차 코딩테스트 스케쥴표"를 작성해줘. 
+다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "17주차 코딩테스트 스케쥴표"를 작성해줘. 
 </br>
 하루 1문제씩 6일치를 해주고, 이때 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
 
@@ -190,3 +190,14 @@
 | **목요일 (프로그래머스)** | Lv.2   | **순위 검색** — [https://school.programmers.co.kr/learn/courses/30/lessons/72412](https://school.programmers.co.kr/learn/courses/30/lessons/72412)    |      | 전처리 + 이분탐색 실전화 (조건 분해 능력)    |
 | **금요일 (백준)**     | 골드 5   | **1707 이분 그래프** — [https://www.acmicpc.net/problem/1707](https://www.acmicpc.net/problem/1707)                                                    |      | 그래프 색칠 / BFS 응용              |
 | **토요일 (프로그래머스)** | Lv.2~3 | **주차 요금 계산** — [https://school.programmers.co.kr/learn/courses/30/lessons/92341](https://school.programmers.co.kr/learn/courses/30/lessons/92341) |      | 문자열 파싱 + 구현 안정성              |
+
+## WEEK 16.
+
+| 요일      | 난이도  | 문제 1                                                                                                                                             | 문제 2 | 오늘의 포인트                         |
+| ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | ------------------------------- |
+| **월요일** | 실버 1 | **1713 후보 추천하기** — [https://www.acmicpc.net/problem/1713](https://www.acmicpc.net/problem/1713)                                                  |      | 구현 + 정렬 + 조건 우선순위 처리 정확도        |
+| **화요일** | Lv.2 | **전화번호 목록** — [https://school.programmers.co.kr/learn/courses/30/lessons/42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |      | 정렬 기반 접두어 판별 / 문자열 비교 안정화       |
+| **수요일** | 실버 1 | **11404 플로이드** — [https://www.acmicpc.net/problem/11404](https://www.acmicpc.net/problem/11404)                                                  |      | 플로이드 워셜 기본 구조 복습 (3중 반복문 패턴 고정) |
+| **목요일** | Lv.2 | **행렬의 곱셈** — [https://school.programmers.co.kr/learn/courses/30/lessons/12949](https://school.programmers.co.kr/learn/courses/30/lessons/12949)  |      | 2중/3중 루프 인덱스 관리 정확도             |
+| **금요일** | 골드 5 | **1197 최소 스패닝 트리** — [https://www.acmicpc.net/problem/1197](https://www.acmicpc.net/problem/1197)                                                |      | MST 정석 (크루스칼 완전 체화)             |
+| **토요일** | Lv.2 | **위장** — [https://school.programmers.co.kr/learn/courses/30/lessons/42578](https://school.programmers.co.kr/learn/courses/30/lessons/42578)      |      | 경우의 수 곱셈 원리 / 해시맵 카운팅           |
