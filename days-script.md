@@ -201,3 +201,14 @@
 | **목요일** | Lv.2 | **행렬의 곱셈** — [https://school.programmers.co.kr/learn/courses/30/lessons/12949](https://school.programmers.co.kr/learn/courses/30/lessons/12949)  |      | 2중/3중 루프 인덱스 관리 정확도             |
 | **금요일** | 골드 5 | **1197 최소 스패닝 트리** — [https://www.acmicpc.net/problem/1197](https://www.acmicpc.net/problem/1197)                                                |      | MST 정석 (크루스칼 완전 체화)             |
 | **토요일** | Lv.2 | **위장** — [https://school.programmers.co.kr/learn/courses/30/lessons/42578](https://school.programmers.co.kr/learn/courses/30/lessons/42578)      |      | 경우의 수 곱셈 원리 / 해시맵 카운팅           |
+
+## WEEK 17.
+
+| 요일      | 난이도  | 문제 1                                                                                                                                           | 문제 2 | 오늘의 포인트                 |
+| ------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ----------------------- |
+| **월요일** | 실버 1 | **2583 영역 구하기** — [https://www.acmicpc.net/problem/2583](https://www.acmicpc.net/problem/2583)                                                 |      | DFS 영역 개수 + 넓이 계산 완전 고정 |
+| **화요일** | Lv.2 | **타겟 넘버** — [https://school.programmers.co.kr/learn/courses/30/lessons/43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) |      | DFS 재귀 구조 템플릿화          |
+| **수요일** | 실버 1 | **2110 공유기 설치** — [https://www.acmicpc.net/problem/2110](https://www.acmicpc.net/problem/2110)                                                 |      | 이분탐색 (거리 최댓값) 조건 설계     |
+| **목요일** | Lv.2 | **징검다리** — [https://school.programmers.co.kr/learn/courses/30/lessons/43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)  |      | 이분탐색 + mid 검증 로직 안정화    |
+| **금요일** | 실버 1 | **1806 부분합** — [https://www.acmicpc.net/problem/1806](https://www.acmicpc.net/problem/1806)                                                    |      | 투포인터 최소 길이 패턴 재고정       |
+| **토요일** | Lv.2 | **소수 찾기** — [https://school.programmers.co.kr/learn/courses/30/lessons/42839](https://school.programmers.co.kr/learn/courses/30/lessons/42839) |      | 조합 + 백트래킹 + 중복 제거 완성    |
