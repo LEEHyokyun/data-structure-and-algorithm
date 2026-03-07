@@ -59,11 +59,11 @@
 
 ## 6. 
 
-| 요일      | 난이도  | 문제                                                                                                                                                | 오늘의 포인트                        |
-| ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| **월요일** | 실버 1 | **1697 숨바꼭질** — [https://www.acmicpc.net/problem/1697](https://www.acmicpc.net/problem/1697)                                                      | BFS 기반 최단거리 응용 / 상태 전이 이해      |
-| **화요일** | Lv.2 | **디스크 컨트롤러** — [https://school.programmers.co.kr/learn/courses/30/lessons/42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627) | PQ + 스케줄링 응용 / 실무적 작업 처리 감각    |
-| **수요일** | 실버 2 | **2667 단지번호붙이기** — [https://www.acmicpc.net/problem/2667](https://www.acmicpc.net/problem/2667)                                                   | DFS/BFS 응용 / 지도/그래프 구조 실전 적용   |
-| **목요일** | Lv.2 | **최대 매출** — [https://school.programmers.co.kr/learn/courses/30/lessons/131704](https://school.programmers.co.kr/learn/courses/30/lessons/131704)  | 슬라이딩 윈도우 / 실무적 매출/데이터 분석 패턴 연습 |
-| **금요일** | 실버 2 | **2805 나무 자르기** — [https://www.acmicpc.net/problem/2805](https://www.acmicpc.net/problem/2805)                                                    | 이분탐색 핵심 응용 / 조건 → mid 판단 심화    |
-| **토요일** | Lv.2 | **징검다리** — [https://school.programmers.co.kr/learn/courses/30/lessons/43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)     | 이분탐색 심화 / 실무형 문제에서 경계값 처리 이해   |
+| 요일      | 난이도  | 문제                                                                                                                                                     | 오늘의 포인트                      |
+| ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
+| **월요일** | 실버 1 | **1697 숨바꼭질** — [https://www.acmicpc.net/problem/1697](https://www.acmicpc.net/problem/1697)                                                           | BFS 기반 최단거리 응용 / 상태 전이 이해    |
+| **화요일** | Lv.2 | **디스크 컨트롤러** — [https://school.programmers.co.kr/learn/courses/30/lessons/42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)      | PQ + 스케줄링 응용 / 실무적 작업 처리 감각  |
+| **수요일** | 실버 2 | **2667 단지번호붙이기** — [https://www.acmicpc.net/problem/2667](https://www.acmicpc.net/problem/2667)                                                        | DFS/BFS 응용 / 지도/그래프 구조 실전 적용 |
+| **목요일** | Lv.2 | **연속 부분 수열의 합** — [https://school.programmers.co.kr/learn/courses/30/lessons/178870](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 슬라이딩 윈도우 / 투포인터 실무적 활용       |
+| **금요일** | 실버 2 | **2805 나무 자르기** — [https://www.acmicpc.net/problem/2805](https://www.acmicpc.net/problem/2805)                                                         | 이분탐색 핵심 응용 / 조건 → mid 판단 심화  |
+| **토요일** | Lv.2 | **징검다리** — [https://school.programmers.co.kr/learn/courses/30/lessons/43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)          | 이분탐색 심화 / 실무형 문제에서 경계값 처리 이해 |
