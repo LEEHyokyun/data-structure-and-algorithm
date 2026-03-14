@@ -226,12 +226,11 @@
 | **토요일** | Lv.2 | **징검다리** — [https://school.programmers.co.kr/learn/courses/30/lessons/43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)          | 이분탐색 심화 / 실무형 문제에서 경계값 처리 이해 |
 
 ## WEEK 19.
-
-| 요일      | 난이도  | 문제                                                                                                                                                      | 오늘의 포인트            |
-| ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| **월요일** | 실버 1 | **1189 컴백홈** — [https://www.acmicpc.net/problem/1189](https://www.acmicpc.net/problem/1189)                                                             | DFS + 백트래킹 / 경로 탐색 |
-| **화요일** | Lv.2 | **카펫** — [https://school.programmers.co.kr/learn/courses/30/lessons/42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)             | 완전탐색 + 수학적 조건      |
-| **수요일** | 실버 1 | **2110 공유기 설치** — [https://www.acmicpc.net/problem/2110](https://www.acmicpc.net/problem/2110)                                                          | 이분 탐색 (거리 최댓값)     |
-| **목요일** | Lv.2 | **연속된 부분 수열의 합** — [https://school.programmers.co.kr/learn/courses/30/lessons/178870](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 슬라이딩 윈도우 / 투포인터    |
-| **금요일** | 실버 1 | **2178 미로 탐색** — [https://www.acmicpc.net/problem/2178](https://www.acmicpc.net/problem/2178)                                                           | BFS 최단거리           |
-| **토요일** | Lv.2 | **디스크 컨트롤러** — [https://school.programmers.co.kr/learn/courses/30/lessons/42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)       | PQ + 스케줄링          |
+| 요일      | 난이도  | 문제                                                                                                                                                   | 오늘의 포인트              |
+| ------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| **월요일** | 실버 1 | **2210 숫자판 점프** — [https://www.acmicpc.net/problem/2210](https://www.acmicpc.net/problem/2210)                                                       | DFS + 백트래킹 / 상태 저장   |
+| **화요일** | Lv.2 | **전력망을 둘로 나누기** — [https://school.programmers.co.kr/learn/courses/30/lessons/86971](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | DFS 그래프 탐색           |
+| **수요일** | 골드 5 | **3079 입국 심사** — [https://www.acmicpc.net/problem/3079](https://www.acmicpc.net/problem/3079)                                                        | 이분 탐색 (시간 최소화)       |
+| **목요일** | Lv.2 | **할인 행사** — [https://school.programmers.co.kr/learn/courses/30/lessons/131127](https://school.programmers.co.kr/learn/courses/30/lessons/131127)     | 슬라이딩 윈도우 + 해시        |
+| **금요일** | 실버 1 | **5014 스타트링크** — [https://www.acmicpc.net/problem/5014](https://www.acmicpc.net/problem/5014)                                                        | BFS 상태 탐색 / 최소 버튼 횟수 |
+| **토요일** | Lv.2 | **야근 지수** — [https://school.programmers.co.kr/learn/courses/30/lessons/12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)       | PQ / 최대값 감소 전략       |
