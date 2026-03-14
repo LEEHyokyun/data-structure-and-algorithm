@@ -4,7 +4,7 @@
 
 나는 하루에 1문제씩, 월요일부터 토요일까지 6일 분량의 알고리즘 문제를 꾸준히 풀어보고자 한다.
 
-다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "18주차 코딩테스트 스케쥴표"를 작성해줘. 
+다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "19주차 코딩테스트 스케쥴표"를 작성해줘. 
 </br>
 하루 1문제씩 6일치를 해주고, 이때 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
 
@@ -224,3 +224,14 @@
 | **목요일** | Lv.2 | **연속 부분 수열의 합** — [https://school.programmers.co.kr/learn/courses/30/lessons/178870](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 슬라이딩 윈도우 / 투포인터 실무적 활용       |
 | **금요일** | 실버 2 | **2805 나무 자르기** — [https://www.acmicpc.net/problem/2805](https://www.acmicpc.net/problem/2805)                                                         | 이분탐색 핵심 응용 / 조건 → mid 판단 심화  |
 | **토요일** | Lv.2 | **징검다리** — [https://school.programmers.co.kr/learn/courses/30/lessons/43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)          | 이분탐색 심화 / 실무형 문제에서 경계값 처리 이해 |
+
+## WEEK 19.
+
+| 요일      | 난이도  | 문제                                                                                                                                                      | 오늘의 포인트            |
+| ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| **월요일** | 실버 1 | **1189 컴백홈** — [https://www.acmicpc.net/problem/1189](https://www.acmicpc.net/problem/1189)                                                             | DFS + 백트래킹 / 경로 탐색 |
+| **화요일** | Lv.2 | **카펫** — [https://school.programmers.co.kr/learn/courses/30/lessons/42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)             | 완전탐색 + 수학적 조건      |
+| **수요일** | 실버 1 | **2110 공유기 설치** — [https://www.acmicpc.net/problem/2110](https://www.acmicpc.net/problem/2110)                                                          | 이분 탐색 (거리 최댓값)     |
+| **목요일** | Lv.2 | **연속된 부분 수열의 합** — [https://school.programmers.co.kr/learn/courses/30/lessons/178870](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 슬라이딩 윈도우 / 투포인터    |
+| **금요일** | 실버 1 | **2178 미로 탐색** — [https://www.acmicpc.net/problem/2178](https://www.acmicpc.net/problem/2178)                                                           | BFS 최단거리           |
+| **토요일** | Lv.2 | **디스크 컨트롤러** — [https://school.programmers.co.kr/learn/courses/30/lessons/42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)       | PQ + 스케줄링          |
