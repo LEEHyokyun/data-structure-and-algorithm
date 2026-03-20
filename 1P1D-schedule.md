@@ -77,3 +77,14 @@
 | **목요일** | Lv.2 | **할인 행사** — [https://school.programmers.co.kr/learn/courses/30/lessons/131127](https://school.programmers.co.kr/learn/courses/30/lessons/131127)     | 슬라이딩 윈도우 + 해시        |
 | **금요일** | 실버 1 | **5014 스타트링크** — [https://www.acmicpc.net/problem/5014](https://www.acmicpc.net/problem/5014)                                                        | BFS 상태 탐색 / 최소 버튼 횟수 |
 | **토요일** | Lv.2 | **야근 지수** — [https://school.programmers.co.kr/learn/courses/30/lessons/12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)       | PQ / 최대값 감소 전략       |
+
+## 8. 
+
+| 요일      | 난이도    | 문제 1                                                                                                                                                 | 오늘의 포인트                    |
+| ------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------  | -------------------------- |
+| **월요일** | 실버 1   | **1926 그림** — [https://www.acmicpc.net/problem/1926](https://www.acmicpc.net/problem/1926)                                                            | BFS 영역 탐색 + 넓이 계산 완전 고정    |
+| **화요일** | Lv.2   | **다리를 지나는 트럭** — [https://school.programmers.co.kr/learn/courses/30/lessons/42583](https://school.programmers.co.kr/learn/courses/30/lessons/42583)   | 큐 + 시간 흐름 시뮬레이션            |
+| **수요일** | 실버 1   | **2589 보물섬** — [https://www.acmicpc.net/problem/2589](https://www.acmicpc.net/problem/2589)                                                           | BFS 최장거리(=여러 번 탐색) 패턴      |
+| **목요일** | Lv.2   | **점프와 순간 이동** — [https://school.programmers.co.kr/learn/courses/30/lessons/12980](https://school.programmers.co.kr/learn/courses/30/lessons/12980)    | DP vs 그리디 판단 핵심            |
+| **금요일** | 골드 5   | **15486 퇴사 2** — [https://www.acmicpc.net/problem/15486](https://www.acmicpc.net/problem/15486)                                                       | DP 최적화 (시간 초과 → 개선)        |
+| **토요일** | Lv.2~3 | **이중우선순위큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628)      | 자료구조 복합 설계 (PQ 2개 or Tree) |

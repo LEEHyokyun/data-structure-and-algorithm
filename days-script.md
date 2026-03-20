@@ -1,10 +1,10 @@
 # Script
 
-1일 1문제를 위한 코딩테스트 문제 내역 작성을 챗지피티에게 요청하기 위한 스크립트.
+"1일 1문제"를 위한 코딩테스트 문제 내역 작성을 챗지피티에게 요청하기 위한 스크립트.
 
-나는 하루에 1문제씩, 월요일부터 토요일까지 6일 분량의 알고리즘 문제를 꾸준히 풀어보고자 한다.
+나는 "하루에 1문제씩", 월요일부터 토요일까지 6일 분량의 알고리즘 문제를 꾸준히 풀어보고자 한다.
 
-다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "19주차 코딩테스트 스케쥴표"를 작성해줘. 
+다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "20주차 코딩테스트 스케쥴표"를 작성해줘. 
 </br>
 하루 1문제씩 6일치를 해주고, 이때 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
 
@@ -234,3 +234,14 @@
 | **목요일** | Lv.2 | **할인 행사** — [https://school.programmers.co.kr/learn/courses/30/lessons/131127](https://school.programmers.co.kr/learn/courses/30/lessons/131127)     | 슬라이딩 윈도우 + 해시        |
 | **금요일** | 실버 1 | **5014 스타트링크** — [https://www.acmicpc.net/problem/5014](https://www.acmicpc.net/problem/5014)                                                        | BFS 상태 탐색 / 최소 버튼 횟수 |
 | **토요일** | Lv.2 | **야근 지수** — [https://school.programmers.co.kr/learn/courses/30/lessons/12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)       | PQ / 최대값 감소 전략       |
+
+## WEEK 20.
+
+| 요일      | 난이도    | 문제 1                                                                                                                                                 | 오늘의 포인트                    |
+| ------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------  | -------------------------- |
+| **월요일** | 실버 1   | **1926 그림** — [https://www.acmicpc.net/problem/1926](https://www.acmicpc.net/problem/1926)                                                            | BFS 영역 탐색 + 넓이 계산 완전 고정    |
+| **화요일** | Lv.2   | **다리를 지나는 트럭** — [https://school.programmers.co.kr/learn/courses/30/lessons/42583](https://school.programmers.co.kr/learn/courses/30/lessons/42583)   | 큐 + 시간 흐름 시뮬레이션            |
+| **수요일** | 실버 1   | **2589 보물섬** — [https://www.acmicpc.net/problem/2589](https://www.acmicpc.net/problem/2589)                                                           | BFS 최장거리(=여러 번 탐색) 패턴      |
+| **목요일** | Lv.2   | **점프와 순간 이동** — [https://school.programmers.co.kr/learn/courses/30/lessons/12980](https://school.programmers.co.kr/learn/courses/30/lessons/12980)    | DP vs 그리디 판단 핵심            |
+| **금요일** | 골드 5   | **15486 퇴사 2** — [https://www.acmicpc.net/problem/15486](https://www.acmicpc.net/problem/15486)                                                       | DP 최적화 (시간 초과 → 개선)        |
+| **토요일** | Lv.2~3 | **이중우선순위큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628)      | 자료구조 복합 설계 (PQ 2개 or Tree) |
