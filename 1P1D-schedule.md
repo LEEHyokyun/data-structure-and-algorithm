@@ -88,3 +88,14 @@
 | **목요일** | Lv.2   | **점프와 순간 이동** — [https://school.programmers.co.kr/learn/courses/30/lessons/12980](https://school.programmers.co.kr/learn/courses/30/lessons/12980)    | DP vs 그리디 판단 핵심            |
 | **금요일** | 골드 5   | **15486 퇴사 2** — [https://www.acmicpc.net/problem/15486](https://www.acmicpc.net/problem/15486)                                                       | DP 최적화 (시간 초과 → 개선)        |
 | **토요일** | Lv.2~3 | **이중우선순위큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628)      | 자료구조 복합 설계 (PQ 2개 or Tree) |
+
+## 9. 
+
+| 요일      | 난이도  | 문제                                                                                                                                                  | 오늘의 포인트                                |
+| ------- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **월요일** | 실버 1 | **2468 안전 영역** — [https://www.acmicpc.net/problem/2468](https://www.acmicpc.net/problem/2468)                                                       | DFS/BFS 반복 수행 (모든 경우 탐색) / visited 초기화 |
+| **화요일** | Lv.2 | **42584 주식가격** — [https://school.programmers.co.kr/learn/courses/30/lessons/42584](https://school.programmers.co.kr/learn/courses/30/lessons/42584) | 스택 + 시뮬레이션 / “언제 떨어지는가” 패턴             |
+| **수요일** | 골드 5 | **14503 로봇 청소기** — [https://www.acmicpc.net/problem/14503](https://www.acmicpc.net/problem/14503)                                                   | 구현 + 시뮬레이션 끝판왕 / 방향 전환 로직              |
+| **목요일** | Lv.2 | **42626 더 맵게** — [https://school.programmers.co.kr/learn/courses/30/lessons/42626](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | 우선순위큐 + Greedy / 최소값 2개 조합 패턴          |
+| **금요일** | 골드 4 | **9663 N-Queen** — [https://www.acmicpc.net/problem/9663](https://www.acmicpc.net/problem/9663)                                                     | 백트래킹 정석 / 가지치기 핵심 (열/대각선 체크)           |
+| **토요일** | Lv.2 | **42586 기능개발** — [https://school.programmers.co.kr/learn/courses/30/lessons/42586](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | 큐 + 배포 시뮬레이션 / 묶음 처리 패턴                |
