@@ -6,12 +6,12 @@
 
 다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "21주차 코딩테스트 스케쥴표"를 작성해줘. 
 </br>
-하루 1문제씩 6일치를 해주고, 이에 대한 21주차, 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
+하루 1문제씩 6일치를 해주고, 이에 대한 22주차, 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
 
 유의할 점, 문제를 선별할때 프로그래머스 214288번(모비스/멘토지정문제) 문제나 올림피아드 문제와 같이 "경진대회/올림피아드 수준의" 
 지나치게 어려운 문제는 시간낭비일뿐이니 코딩테스트 준비에 적합한, 적절한 난이도로 고려해줘. 표 형식은 아래의 포맷 그대로 유지해줘.
 
-13주차부터 20주차까지 풀었던 문제들 중 내 약점인 자료구조 시뮬레이션(프로그래머스 42583문제와 같은)/DFS/백트래킹/우선순위큐 등이 내가 약한 부분이니, </br>
+13주차부터 21주차까지 풀었던 문제들 중 내 약점인 자료구조 시뮬레이션(프로그래머스 42583문제와 같은)/DFS/백트래킹/우선순위큐 등이 내가 약한 부분이니, </br>
 당분간은 이 약한 부분을 중심으로 풀어보도록 하자(실버1~골드5/4 수준).
 
 > WEEK 1 ~ 12
@@ -261,3 +261,14 @@
 | **목요일** | Lv.2 | **42626 더 맵게** — [https://school.programmers.co.kr/learn/courses/30/lessons/42626](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | 우선순위큐 + Greedy / 최소값 2개 조합 패턴          |
 | **금요일** | 골드 4 | **9663 N-Queen** — [https://www.acmicpc.net/problem/9663](https://www.acmicpc.net/problem/9663)                                                     | 백트래킹 정석 / 가지치기 핵심 (열/대각선 체크)           |
 | **토요일** | Lv.2 | **42586 기능개발** — [https://school.programmers.co.kr/learn/courses/30/lessons/42586](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | 큐 + 배포 시뮬레이션 / 묶음 처리 패턴                |
+
+## WEEK 22.
+
+| 요일      | 난이도  | 문제 1                                                                                                                                                      | 오늘의 포인트                                 |
+| ------- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| **월요일** | 실버 1 | **2178 미로 탐색** — [https://www.acmicpc.net/problem/2178](https://www.acmicpc.net/problem/2178)                                                             | BFS 기본기 리마인드 (queue + 거리) / DFS랑 차이 명확히 |
+| **화요일** | Lv.2 | **42583 다리를 지나는 트럭** — [https://school.programmers.co.kr/learn/courses/30/lessons/42583](https://school.programmers.co.kr/learn/courses/30/lessons/42583) | **시뮬레이션 핵심 복습 (시간 흐름 + 큐 상태 관리)**       |
+| **수요일** | 실버 1 | **1182 부분수열의 합** — [https://www.acmicpc.net/problem/1182](https://www.acmicpc.net/problem/1182)                                                           | **DFS + 백트래킹 기본 템플릿 완전 체화**             |
+| **목요일** | Lv.2 | **42626 더 맵게** — [https://school.programmers.co.kr/learn/courses/30/lessons/42626](https://school.programmers.co.kr/learn/courses/30/lessons/42626)       | **우선순위큐 (min heap) 패턴 반복 학습**           |
+| **금요일** | 골드 5 | **15650 N과 M (2)** — [https://www.acmicpc.net/problem/15650](https://www.acmicpc.net/problem/15650)                                                       | **백트래킹 + 조합 생성 패턴 (visited 없이 구현)**     |
+| **토요일** | Lv.3 | **43164 여행경로** — [https://school.programmers.co.kr/learn/courses/30/lessons/43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164)       | DFS + 백트래킹 + **경로 저장 + 정렬 (완성형 문제)**    |
