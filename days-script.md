@@ -4,9 +4,9 @@
 
 나는 "하루에 1문제씩", 월요일부터 토요일까지 6일 분량의 알고리즘 문제를 꾸준히 풀어보고자 한다.
 
-다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "21주차 코딩테스트 스케쥴표"를 작성해줘. 
+다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "24주차 코딩테스트 스케쥴표"를 작성해줘. 
 </br>
-하루 1문제씩 6일치를 해주고, 이에 대한 23주차, 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
+하루 1문제씩 6일치를 해주고, 이에 대한 24주차, 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
 
 유의할 점, 문제를 선별할때 프로그래머스 214288번(모비스/멘토지정문제) 문제나 올림피아드 문제와 같이 "경진대회/올림피아드 수준의" 
 지나치게 어려운 문제는 시간낭비일뿐이니 코딩테스트 준비에 적합한, 적절한 난이도로 고려해줘. 표 형식은 아래의 포맷 그대로 유지해줘.
@@ -283,3 +283,14 @@
 | **목요일 (프로그래머스)** | Lv.2 | **42627 디스크 컨트롤러 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)         | **우선순위큐 + 스케줄링 흐름 완전 이해**         |
 | **금요일 (백준)**     | 골드 5 | **14889 스타트와 링크** — [https://www.acmicpc.net/problem/14889](https://www.acmicpc.net/problem/14889)                                                                   | 백트래킹 + 조합 + 최소값 갱신                |
 | **토요일 (프로그래머스)** | Lv.3 | **43238 입국심사 (복습 but 심화 관점)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238)   | 이분탐색 + “시간 최소화” 사고 완성             |
+
+## WEEK 24.
+
+| 요일               | 난이도  | 문제 1                                                                                                                                                   | 문제 2 | 오늘의 포인트                            |
+| ---------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | ---------------------------------- |
+| **월요일 (백준)**     | 골드 5 | **14889 스타트와 링크** — [https://www.acmicpc.net/problem/14889](https://www.acmicpc.net/problem/14889)                                                     |      | 백트래킹 + 조합 + 최소값 갱신 (완전탐색 최적화 핵심)   |
+| **화요일 (프로그래머스)** | Lv.2 | **42584 주식가격** — [https://school.programmers.co.kr/learn/courses/30/lessons/42584](https://school.programmers.co.kr/learn/courses/30/lessons/42584)    |      | 스택 기반 시뮬레이션 / “언제 떨어지는가” 패턴 완전 체화  |
+| **수요일 (백준)**     | 실버 1 | **15652 N과 M (4)** — [https://www.acmicpc.net/problem/15652](https://www.acmicpc.net/problem/15652)                                                    |      | 백트래킹 (중복 허용 조합) → visited 없이 구현 감각 |
+| **목요일 (프로그래머스)** | Lv.2 | **42587 프로세스** — [https://school.programmers.co.kr/learn/courses/30/lessons/42587](https://school.programmers.co.kr/learn/courses/30/lessons/42587)    |      | 큐 + 우선순위큐 혼합 시뮬레이션 (핵심 약점 보완)      |
+| **금요일 (백준)**     | 골드 5 | **13549 숨바꼭질 3 (복습 심화)** — [https://www.acmicpc.net/problem/13549](https://www.acmicpc.net/problem/13549)                                              |      | 0-1 BFS / deque vs PQ 선택 기준        |
+| **토요일 (프로그래머스)** | Lv.3 | **42628 이중우선순위큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628) |      | PQ 2개 or Tree 구조 / 자료구조 설계 능력 강화   |
