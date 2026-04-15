@@ -16,6 +16,19 @@
         - i,2 -> i-1행에 1열, i-1행에 2열, i-1행에 아무것도 없을 경우의 수에 누적하면 됨
   - new int[N][M] / new long[N][M] -> N,M 무조건 int type.
 
+- 멀리뛰기
+  - 특수 경우에 대한(early return) 결과 도출은 순회를 하기 전에 main에서 아예 결과를 도출한다.
+  - 결과 도출 후 순회
+
+```java
+if(n == 1) return 1 % MOD;
+        if(n == 2) return 2 % MOD;
+        
+        //dp[1] => 1칸에 도달할 수 있는 경우의 수
+        dp = new long[n+1];
+        long answer = tabul(dp, n);
+```
+
 [유의사항]
 
 - mod 적용 시
@@ -24,3 +37,14 @@
 
 - 점화식의 상태/조건/양상 파악이 중요하다.
   - i번째 행의 경우의 수는 "해당 우리"에 사자를 넣었을때, 안넣었을때의 경우의 수.
+
+- length / n 조건 및 순회크기 등을 고려해서 특수상황에 대해 return 조건 정립하기
+
+```java
+if(n == 1) return dp[1] % MOD;
+        if(n == 2) return dp[2] % MOD;
+        
+        for(int i = 3 ; i <= n ; i++){
+            dp[i] = dp[i-1] % MOD + dp[i-2] % MOD;
+        }
+```

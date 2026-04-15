@@ -1,27 +1,22 @@
-package week23;
+package week24;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class StartTeamAndLinkTeamMinimumScoringByDFS {
+public class StartAndLinkByDFS {
+    static int N;
+    static int answer = Integer.MAX_VALUE;
     static int[][] graph;
-    static int N, min;
-    static int[] list;
+    //boolean[] selected;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        //능력치 합의 차이가 최소가 되도록 하는
         N = Integer.parseInt(br.readLine());
-        min = Integer.MAX_VALUE;
+
         graph = new int[N][N];
-//        list = new int[N];
-//
-//        for(int i = 0 ; i < N ; i++){
-//            list[i] = i+1;
-//        }
 
         for(int i = 0 ; i < N ; i++){
 
@@ -32,44 +27,40 @@ public class StartTeamAndLinkTeamMinimumScoringByDFS {
             }
         }
 
-        //각 팀의 사람 수 = N/2
-        //각 팀에서 N명 중에 N/2개 만큼 뽑는 조합의 경우의 수를 구하고 그 조합의 능력치 합을 구하고 차이 구함
-        //이 중 최소값을 구함
-
+        //int[] selected = new int[N/2];
         boolean[] selected = new boolean[N];
-        int answer = dfs(selected, 0, 0);
 
-        System.out.println(answer);
+        System.out.println(dfs(selected, 0, 0));
     }
 
+    //조합하면서 최소값
     static int dfs(boolean[] selected, int idx, int count){
 
         if(count == N/2){
             return getScore(selected);
         }
 
+        //선택 기준 = count가 아닌 idx.
         for(int i = idx ; i < N ; i++){
             selected[i] = true;
-            min = Math.min(min, dfs(selected, i + 1, count + 1));
+            answer = Math.min(answer, dfs(selected, i + 1, count + 1));
             selected[i] = false;
         }
 
-        return min;
+        return answer;
     }
 
     static int getScore(boolean[] selected){
-
+        //N/2명에 대한 점수 - N/2명에 대한 점수
         int score1 = 0;
         int score2 = 0;
 
+
+        //조합의 경우 -> 다음 단계 포함 x
         for(int i = 0 ; i < N ; i++){
-            for(int j = i+1 ; j < N ; j++){
-                if(selected[i] && selected[j]){
-                    score1 += graph[i][j] + graph[j][i];
-                }
-                else if(!selected[i] && !selected[j]){
-                    score2 += graph[i][j] + graph[j][i];
-                }
+            for(int j = i + 1; j < N ; j++){
+                if(selected[i] && selected[j]) score1 += graph[i][j] + graph[j][i];
+                if(!selected[i] && !selected[j]) score2 += graph[i][j] + graph[j][i];
             }
         }
 
