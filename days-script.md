@@ -4,14 +4,14 @@
 
 나는 "하루에 1문제씩", 월요일부터 토요일까지 6일 분량의 알고리즘 문제를 꾸준히 풀어보고자 한다.
 
-다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "24주차 코딩테스트 스케쥴표"를 작성해줘. 
+다만 단순히 문제 나열이 아니라, "4월 30일까지의 코딩테스트 로드맵"이라는 것을 고려해서 빈출하는 개념 및 유형에 대해 확실히 익히고 실력도 점진적으로 향상할 수 있는 방향으로 "25주차 코딩테스트 스케쥴표"를 작성해줘. 
 </br>
-하루 1문제씩 6일치를 해주고, 이에 대한 24주차, 월/수/금 - 백준, 화/목/토 - 프로그래머스의 문제로 구성해줘. 
+하루 1문제씩 6일치를 해주고, 이에 대한 25주차, 프로그래머스의 문제로 구성해줘. 
 
 유의할 점, 문제를 선별할때 프로그래머스 214288번(모비스/멘토지정문제) 문제나 올림피아드 문제와 같이 "경진대회/올림피아드 수준의" 
 지나치게 어려운 문제는 시간낭비일뿐이니 코딩테스트 준비에 적합한, 적절한 난이도로 고려해줘. 표 형식은 아래의 포맷 그대로 유지해줘.
 
-13주차부터 23주차까지 풀었던 문제들 중 내 약점인 (프로그래머스 42583문제와 같은)자료구조 시뮬레이션, DFS/백트래킹(프로그래머스 43164/boj 15650 및 1182 문제와 같은), 우선순위큐 등이 내가 약한 부분이니, </br>
+13주차부터 24주차까지 풀었던 문제들 중 내 약점인 (프로그래머스 42583문제와 같은)자료구조 시뮬레이션, DFS/백트래킹(프로그래머스 43164/boj 15650 및 1182 문제와 같은), 우선순위큐 등이 내가 약한 부분이니, </br>
 당분간은 이 약한 부분을 중심으로 풀어보도록 하자(실버1~골드5/4 및 프로그래머스 Lv2~3 수준).
 
 > WEEK 1 ~ 12
@@ -294,3 +294,14 @@
 | **목요일 (프로그래머스)** | Lv.2 | **42587 프로세스** — [https://school.programmers.co.kr/learn/courses/30/lessons/42587](https://school.programmers.co.kr/learn/courses/30/lessons/42587)    |      | 큐 + 우선순위큐 혼합 시뮬레이션 (핵심 약점 보완)      |
 | **금요일 (백준)**     | 골드 5 | **13549 숨바꼭질 3 (복습 심화)** — [https://www.acmicpc.net/problem/13549](https://www.acmicpc.net/problem/13549)                                              |      | 0-1 BFS / deque vs PQ 선택 기준        |
 | **토요일 (프로그래머스)** | Lv.3 | **42628 이중우선순위큐** — [https://school.programmers.co.kr/learn/courses/30/lessons/42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628) |      | PQ 2개 or Tree 구조 / 자료구조 설계 능력 강화   |
+
+## WEEK 25.
+
+| 요일      | 난이도  | 문제                                                                                                                                                                         | 오늘의 포인트                           |
+| ------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **월요일** | Lv.2 | **42586 기능개발** — [https://school.programmers.co.kr/learn/courses/30/lessons/42586](https://school.programmers.co.kr/learn/courses/30/lessons/42586)                        | 큐 + “배포 묶음 처리” 시뮬레이션 완성           |
+| **화요일** | Lv.2 | **42746 가장 큰 수** — [https://school.programmers.co.kr/learn/courses/30/lessons/42746](https://school.programmers.co.kr/learn/courses/30/lessons/42746)                      | 정렬 + comparator 설계 (문자열 기반 사고 전환) |
+| **수요일** | Lv.2 | **43165 타겟 넘버 (복습 but 제한 조건 다양화 관점)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | DFS 완전탐색 → “재귀 템플릿 자동화”           |
+| **목요일** | Lv.3 | **42627 디스크 컨트롤러 (최종 복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)            | PQ + 스케줄링 흐름 “손코딩 가능 수준”          |
+| **금요일** | Lv.3 | **43164 여행경로 (최종 복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164)                | DFS + 백트래킹 + 경로 정렬 → 완성형          |
+| **토요일** | Lv.3 | **42628 이중우선순위큐 (최종 복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628)             | PQ 2개 / Tree 구조 → 자료구조 설계 마무리     |
