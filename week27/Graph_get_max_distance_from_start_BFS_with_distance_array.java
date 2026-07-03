@@ -54,6 +54,7 @@ public class Graph_get_max_distance_from_start_BFS_with_distance_array {
             List<Integer> list = graph[cur];
 
             //list = null -> NPE, list가 초기화되어있으나 인접노드가 없다면 size = 0
+            //for(int node : graph[i])
             for(int i = 0 ; i < list.size() ; i++){
                 if(visited[list.get(i)]) continue;
 
