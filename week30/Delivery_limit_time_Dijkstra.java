@@ -39,11 +39,11 @@ public class Delivery_limit_time_Dijkstra {
     static int dijkstra(int start, int node, int limit){
 
         int[] distance = new int[node+1];
+        boolean[] visited = new boolean[node+1];
+
         Arrays.fill(distance, INF);
 
         distance[start] = 0;
-
-        boolean[] visited = new boolean[node+1];
 
         for(int i = 1 ; i <= node ; i++){
 
@@ -58,17 +58,17 @@ public class Delivery_limit_time_Dijkstra {
                     minNode = j;
                 }
 
-                if(minNode == -1) break;
-                visited[minNode] = true;
-
-                for(Node adj : graph[minNode]){
-                    if(distance[adj.to] > distance[minNode] + adj.weight){
-                        distance[adj.to] = distance[minNode] + adj.weight;
-                    }
-                }
             }
 
+            //최단거리 탐색 다 끝나고 갱신
+            if(minNode == -1) break;
+            visited[minNode] = true;
 
+            for(Node adj : graph[minNode]){
+                if(distance[adj.to] > distance[minNode] + adj.weight){
+                    distance[adj.to] = distance[minNode] + adj.weight;
+                }
+            }
         }
 
         int answer = 0;
