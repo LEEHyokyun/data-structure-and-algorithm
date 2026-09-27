@@ -239,3 +239,12 @@
 | **수요일** | Lv.2      | **92342 양궁대회** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92342)       | **42842 카펫** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/42842)       | **DFS + 백트래킹 + 브루트포스 / 탐색 범위 설계 및 조건에 따른 가지치기 연습**               |
 | **목요일** | Lv.2~Lv.3 | **43238 입국심사** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/43238)       | **64062 징검다리 건너기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | **Parametric Search / 결정 문제 변환 + Lower·Upper Bound + 경계값 처리 완성** |
 | **금요일** | Lv.2~Lv.3 | **118669 등산코스 정하기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/118669) | **17676 추석 트래픽** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/17676)   | **다익스트라 변형 + 시간 기반 시뮬레이션 / 한 주간 핵심 유형을 실전형 문제로 종합 점검**           |
+
+## WEEK 36.
+
+| 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
+|---|---|---|---|---|
+| **화요일** | Lv.2 | **60058 괄호 변환** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/60058) | **42842 카펫** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | **문자열 재귀 구현 + 조건 기반 완전탐색 / 문제에서 제시한 절차를 코드로 정확히 변환하는 능력 안정화** |
+| **수요일** | Lv.2 | **92342 양궁대회** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | **87946 피로도** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | **DFS + 백트래킹 + 브루트포스 / 제한된 탐색 공간에서 모든 경우를 생성하고 최적해를 선택하는 능력 강화** |
+| **목요일** | Lv.2~Lv.3 | **12978 배달** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | **132266 부대복귀** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/132266) | **다익스트라 vs BFS 선택 기준 / 가중치 그래프와 동일 가중치 그래프의 최단경로 접근법 비교** |
+| **금요일** | Lv.3 | **118669 등산코스 정하기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/118669) | **67259 경주로 건설** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/67259) | **다익스트라 변형 종합 / PriorityQueue + 상태별 비용 관리 + 경로 상태에 따른 최적값 갱신 능력 강화** |
