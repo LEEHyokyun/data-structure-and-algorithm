@@ -248,3 +248,11 @@
 | **수요일** | Lv.2 | **92342 양궁대회** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | **87946 피로도** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | **DFS + 백트래킹 + 브루트포스 / 제한된 탐색 공간에서 모든 경우를 생성하고 최적해를 선택하는 능력 강화** |
 | **목요일** | Lv.2~Lv.3 | **12978 배달** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | **132266 부대복귀** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/132266) | **다익스트라 vs BFS 선택 기준 / 가중치 그래프와 동일 가중치 그래프의 최단경로 접근법 비교** |
 | **금요일** | Lv.3 | **118669 등산코스 정하기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/118669) | **67259 경주로 건설** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/67259) | **다익스트라 변형 종합 / PriorityQueue + 상태별 비용 관리 + 경로 상태에 따른 최적값 갱신 능력 강화** |
+
+## WEEK 37.
+
+| 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
+|---|---|---|---|---|
+| **금요일 (11/13)** | Lv.2 | **12951 JadenCase 문자열 만들기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12951) | - | **String API + Parsing / 공백·숫자·대소문자 예외 처리 및 문자열 변환 안정화** |
+| **토요일 (11/14)** | Lv.2 | **1829 카카오프렌즈 컬러링북** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/1829) | **72411 메뉴 리뉴얼** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | **BFS 영역 탐색 + DFS·백트래킹 조합 생성 / 방문 처리와 탐색 결과 집계 능력 강화** |
+| **일요일 (11/15)** | Lv.2~Lv.3 | **77485 행렬 테두리 회전하기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | **12920 선입 선출 스케줄링** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12920) | **시뮬레이션·구현 + 이분탐색 / 배열의 경계 인덱스 관리와 Parametric Search 기반 최적 시간 탐색 능력 강화** |
