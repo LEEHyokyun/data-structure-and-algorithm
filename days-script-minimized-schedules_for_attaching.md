@@ -253,6 +253,6 @@
 
 | 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
 |---|---|---|---|---|
-| **금요일 (11/13)** | Lv.2 | **12951 JadenCase 문자열 만들기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12951) | - | **String API + Parsing / 공백·숫자·대소문자 예외 처리 및 문자열 변환 안정화** |
-| **토요일 (11/14)** | Lv.2 | **1829 카카오프렌즈 컬러링북** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/1829) | **72411 메뉴 리뉴얼** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | **BFS 영역 탐색 + DFS·백트래킹 조합 생성 / 방문 처리와 탐색 결과 집계 능력 강화** |
-| **일요일 (11/15)** | Lv.2~Lv.3 | **77485 행렬 테두리 회전하기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | **12920 선입 선출 스케줄링** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12920) | **시뮬레이션·구현 + 이분탐색 / 배열의 경계 인덱스 관리와 Parametric Search 기반 최적 시간 탐색 능력 강화** |
+| **금요일 (11/13)** | Lv.2 (완료) | **12951 JadenCase 문자열 만들기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12951) | - | String API + Parsing / 공백·숫자·대소문자 예외 처리 및 문자열 변환 |
+| **토요일 (11/14)** | Lv.4 | **12920 선입 선출 스케줄링** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12920) | **118670 행렬과 연산** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/118670) | **Parametric Search + 고급 시뮬레이션 / 이분탐색을 통한 최적 시간 탐색 및 Deque 기반 자료구조 최적화 능력 강화** |
+| **일요일 (11/15)** | Lv.3 | **92343 양과 늑대 (2022 카카오 5번)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92343) | **92344 파괴되지 않은 건물 (2022 카카오 6번)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92344) | **DFS + 백트래킹 상태 관리 / 2차원 누적합과 차분 배열을 이용한 대량 연산 최적화 능력 강화** |
