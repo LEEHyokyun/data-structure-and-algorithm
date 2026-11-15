@@ -260,3 +260,15 @@
 | 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
 |---|---|---|---|---|
 | **일요일 (11/15)** | Lv.2 | **150368 이모티콘 할인행사 (2023 카카오)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/150368) | **150369 택배 배달과 수거하기 (2023 카카오)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | **DFS + 완전탐색 + Greedy / 제한된 탐색 공간에서 최적 조합을 선택하는 능력 및 조건에 따른 탐욕적 선택과 이동 거리 최적화 능력 강화** |
+
+## WEEK 38.
+
+## WEEK 38.
+
+| 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
+|---|---|---|---|---|
+| **월요일** | Lv.2 | **81302 거리두기 확인하기** — [https://school.programmers.co.kr/learn/courses/30/lessons/81302](https://school.programmers.co.kr/learn/courses/30/lessons/81302) | **131130 혼자 놀기의 달인** — [https://school.programmers.co.kr/learn/courses/30/lessons/131130](https://school.programmers.co.kr/learn/courses/30/lessons/131130) | **BFS + 그래프 순환 구조 파악 / 방문 처리와 탐색 상태 관리 능력 강화** |
+| **화요일** | Lv.2 | **17677 뉴스 클러스터링** — [https://school.programmers.co.kr/learn/courses/30/lessons/17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | **17679 프렌즈4블록** — [https://school.programmers.co.kr/learn/courses/30/lessons/17679](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **String API + Parsing + 시뮬레이션 / 문자열 조건 처리와 반복적인 상태 변경 구현 능력 강화** |
+| **수요일** | Lv.2 | **72411 메뉴 리뉴얼** — [https://school.programmers.co.kr/learn/courses/30/lessons/72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | **12952 N-Queen** — [https://school.programmers.co.kr/learn/courses/30/lessons/12952](https://school.programmers.co.kr/learn/courses/30/lessons/12952) | **DFS + 백트래킹 + 조합 생성 / 탐색 범위 설정과 중복 제거 및 가지치기 능력 강화** |
+| **목요일** | Lv.2~Lv.3 | **43237 예산** — [https://school.programmers.co.kr/learn/courses/30/lessons/43237](https://school.programmers.co.kr/learn/courses/30/lessons/43237) | **42883 큰 수 만들기** — [https://school.programmers.co.kr/learn/courses/30/lessons/42883](https://school.programmers.co.kr/learn/courses/30/lessons/42883) | **이분탐색 + Greedy / 결정 조건에 따른 최적값 탐색과 스택 기반 선택 전략 이해** |
+| **금요일** | Lv.2~Lv.3 | **43105 정수 삼각형** — [https://school.programmers.co.kr/learn/courses/30/lessons/43105](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | **42885 구명보트** — [https://school.programmers.co.kr/learn/courses/30/lessons/42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | **DP + Greedy / 누적 최적값 갱신과 정렬·투포인터 기반 최적 선택 능력 강화** |
