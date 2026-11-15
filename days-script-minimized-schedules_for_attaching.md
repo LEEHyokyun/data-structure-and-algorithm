@@ -256,3 +256,7 @@
 | **금요일 (11/13)** | Lv.2 (완료) | **12951 JadenCase 문자열 만들기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12951) | - | String API + Parsing / 공백·숫자·대소문자 예외 처리 및 문자열 변환 |
 | **토요일 (11/14)** | Lv.4 | **12920 선입 선출 스케줄링** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/12920) | **118670 행렬과 연산** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/118670) | **Parametric Search + 고급 시뮬레이션 / 이분탐색을 통한 최적 시간 탐색 및 Deque 기반 자료구조 최적화 능력 강화** |
 | **일요일 (11/15)** | Lv.3 | **92343 양과 늑대 (2022 카카오 5번)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92343) | **92344 파괴되지 않은 건물 (2022 카카오 6번)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/92344) | **DFS + 백트래킹 상태 관리 / 2차원 누적합과 차분 배열을 이용한 대량 연산 최적화 능력 강화** |
+
+| 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
+|---|---|---|---|---|
+| **일요일 (11/15)** | Lv.2 | **150368 이모티콘 할인행사 (2023 카카오)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/150368) | **150369 택배 배달과 수거하기 (2023 카카오)** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | **DFS + 완전탐색 + Greedy / 제한된 탐색 공간에서 최적 조합을 선택하는 능력 및 조건에 따른 탐욕적 선택과 이동 거리 최적화 능력 강화** |
