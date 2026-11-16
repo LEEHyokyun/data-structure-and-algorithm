@@ -263,8 +263,6 @@
 
 ## WEEK 38.
 
-## WEEK 38.
-
 | 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
 |---|---|---|---|---|
 | **월요일** | Lv.2 | **81302 거리두기 확인하기** — [https://school.programmers.co.kr/learn/courses/30/lessons/81302](https://school.programmers.co.kr/learn/courses/30/lessons/81302) | **131130 혼자 놀기의 달인** — [https://school.programmers.co.kr/learn/courses/30/lessons/131130](https://school.programmers.co.kr/learn/courses/30/lessons/131130) | **BFS + 그래프 순환 구조 파악 / 방문 처리와 탐색 상태 관리 능력 강화** |
