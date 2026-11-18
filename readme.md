@@ -470,3 +470,116 @@ selected는 "이미 썼는지 기억하는 장치"
 
 - 배열의 크기가 소수인데 무제한 사용 가능? 방문여부가 의미가 없다?
   - DP가 확실.
+
+## Collections.sort vs Arrays.sort
+
+## 1. 정렬 방법 비교
+
+| 구분 | 정렬 대상 | 오름차순 | 내림차순 | 람다식 정렬 |
+|:---|:---|:---|:---|:---|
+| **Collections.sort()** | List | `Collections.sort(list)` | `Collections.sort(list, Collections.reverseOrder())` | `Collections.sort(list, (a, b) -> a - b)` |
+| **Arrays.sort()** | Wrapper 배열 | `Arrays.sort(arr)` | `Arrays.sort(arr, Collections.reverseOrder())` | `Arrays.sort(arr, (a, b) -> a - b)` |
+| **Arrays.sort()** | 기본형 배열 | `Arrays.sort(arr)` | `Arrays.sort(arr, (a, b) -> b - a)` 적용 불가 | 직접 구현 필요 |
+
+## 2. 자료형별 상세 사용법
+
+### ① ArrayList (List)
+
+`Collections.sort()`를 사용하여 List 자료형을 정렬한다.
+
+| 정렬 방식 | 사용 방법 |
+|:---|:---|
+| 오름차순 | `Collections.sort(list)` |
+| 내림차순 | `Collections.sort(list, Collections.reverseOrder())` |
+| 람다식 | `Collections.sort(list, (a, b) -> a - b)` |
+
+```java
+Collections.sort(list); 
+Collections.sort(list, Collections.reverseOrder());
+Collections.sort(list, (a, b) -> a - b);
+```
+
+- `Collections.sort()`는 List 자료형에만 적용할 수 있다.
+- List 자체의 정렬 기능인 `list.sort(Comparator)`도 활용 가능하다.
+
+### ② String[] / Integer[] (Wrapper 배열)
+
+`Arrays.sort()`를 사용하며, Comparator를 적용할 수 있다.
+
+| 정렬 방식 | 사용 방법 |
+|:---|:---|
+| 오름차순 | `Arrays.sort(arr)` |
+| 내림차순 | `Arrays.sort(arr, Collections.reverseOrder())` |
+| 람다식 오름차순 | `Arrays.sort(arr, (a, b) -> a - b)` |
+| 람다식 내림차순 | `Arrays.sort(arr, (a, b) -> b - a)` |
+
+```java
+Integer[] arr = {5, 2, 8, 1};
+
+// 오름차순
+Arrays.sort(arr);
+
+// 내림차순
+Arrays.sort(arr, Collections.reverseOrder());
+
+// 람다식
+Arrays.sort(arr, (a, b) -> a - b);
+Arrays.sort(arr, (a, b) -> b - a);
+```
+
+- Wrapper 배열은 Comparator를 적용할 수 있다.
+- 내림차순 정렬 시 `Collections.reverseOrder()`를 활용할 수 있다.
+
+### ③ int[] (기본형 배열)
+
+기본형 배열은 Comparator를 직접 적용할 수 없다.
+
+| 정렬 방식 | 사용 방법 |
+|:---|:---|
+| 오름차순 | `Arrays.sort(arr)` |
+| 내림차순 | 직접 구현 필요 |
+
+```java
+int[] arr = {5, 2, 8, 1};
+
+// 오름차순
+Arrays.sort(arr);
+
+// 내림차순 (직접 구현)
+Arrays.sort(arr);
+
+for (int i = 0; i < arr.length / 2; i++) {
+    int temp = arr[i];
+    arr[i] = arr[arr.length - 1 - i];
+    arr[arr.length - 1 - i] = temp;
+}
+```
+
+- 기본형 배열은 Comparator를 인자로 받는 `Arrays.sort()` 오버로딩이 제공되지 않는다.
+- 내림차순이 필요한 경우 오름차순 정렬 후 역순으로 변경하거나 직접 정렬 로직을 구현한다.
+
+## 3. 시간 복잡도 비교
+
+| 정렬 메서드 | 정렬 대상 | 평균 시간 복잡도 | 최악 시간 복잡도 |
+|:---|:---|:---:|:---:|
+| `Collections.sort()` | List | O(N log N) | O(N log N) |
+| `Arrays.sort()` | 기본형 배열 | O(N log N) | O(N²) |
+| `Arrays.sort()` | 객체 배열 (Wrapper 포함) | O(N log N) | O(N log N) |
+
+※ Java의 기본형 배열 정렬은 Dual-Pivot QuickSort 기반이며, 최악의 경우 O(N²)이 발생할 수 있다. 객체 배열 정렬은 TimSort 기반으로 O(N log N)의 시간 복잡도를 보장한다.
+
+## 4. 핵심 정리
+
+| 구분 | Collections.sort() | Arrays.sort() |
+|:---|:---|:---|
+| 정렬 대상 | List | 배열 |
+| 기본형 정렬 | 불가능 (기본형은 Wrapper로 변환 필요) | 가능 |
+| Comparator 적용 | 가능 | 객체 배열만 가능 |
+| 내림차순 | `Collections.reverseOrder()` | Wrapper 배열은 `Collections.reverseOrder()` |
+| 시간 복잡도 | O(N log N) | 기본형: 평균 O(N log N), 최악 O(N²) / 객체형: O(N log N) |
+
+**주의사항**
+- 기본형 배열(`int[]`)에는 Comparator를 적용할 수 없다.
+- Wrapper 배열(`Integer[]`)에는 Comparator를 적용할 수 있다.
+- `Collections.sort()`는 List에만 적용할 수 있다.
+- 람다식에서 `(a, b) -> a - b` 형태의 비교는 정수 오버플로우 가능성이 있으므로, 안전한 비교에는 `Integer.compare(a, b)`를 권장한다.
