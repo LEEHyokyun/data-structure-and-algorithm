@@ -32,16 +32,6 @@
 | **금요일** | 골드 4 | **9019 A to B** — [https://www.acmicpc.net/problem/9019](https://www.acmicpc.net/problem/9019)                                                            |  
 | **토요일** | Lv.3 | **43162 Networks** — [https://school.programmers.co.kr/learn/courses/30/lessons/43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162)   |
 
-## WEEK 39.
-
-| 요일 | 난이도 | 문제 1 | 문제 2 | 오늘의 포인트 |
-|---|---|---|---|---|
-| **월요일** | Lv.2 | **250136 석유 시추** — [https://school.programmers.co.kr/learn/courses/30/lessons/250136](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | **12978 배달 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/12978](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | **BFS + 다익스트라 비교 / 연결 요소 단위 탐색, 가중치 그래프의 최단거리 갱신 및 PriorityQueue 활용 안정화** |
-| **화요일** | Lv.3 | **12979 기지국 설치** — [https://school.programmers.co.kr/learn/courses/30/lessons/12979](https://school.programmers.co.kr/learn/courses/30/lessons/12979) | **42861 섬 연결하기 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/42861](https://school.programmers.co.kr/learn/courses/30/lessons/42861) | **Greedy + 크루스칼(MST) / 구간별 최적 선택과 Union-Find를 이용한 최소 비용 신장 트리 구성 능력 강화** |
-| **수요일** | Lv.3 | **258709 주사위 고르기** — [https://school.programmers.co.kr/learn/courses/30/lessons/258709](https://school.programmers.co.kr/learn/courses/30/lessons/258709) | **12946 하노이의 탑** — [https://school.programmers.co.kr/learn/courses/30/lessons/12946](https://school.programmers.co.kr/learn/courses/30/lessons/12946) | **DFS + 백트래킹 + 브루트포스 / 조합 생성, 탐색 공간 분리 및 재귀 호출의 종료 조건과 상태 관리 안정화** |
-| **목요일** | Lv.1~Lv.2 | **150370 개인정보 수집 유효기간** — [https://school.programmers.co.kr/learn/courses/30/lessons/150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **77485 행렬 테두리 회전하기** — [https://school.programmers.co.kr/learn/courses/30/lessons/77485](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | **String API + Parsing + 시뮬레이션 / 날짜 문자열의 정수 변환, 경계값 처리 및 2차원 배열의 인덱스·상태 변경 구현 안정화** |
-| **금요일** | Lv.3 | **49191 순위 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/49191](https://school.programmers.co.kr/learn/courses/30/lessons/49191) | **43238 입국심사 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | **플로이드 워셜 + 이분탐색 / 3중 반복문을 이용한 경로 관계 갱신 및 결정 문제 변환, Parametric Search와 경계값 처리 완성** |
-
 ※ 복기해야 할 유형들
 - greedy
 - 다익스트라 / 다익스트라 변형 / BFS
