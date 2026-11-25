@@ -1,6 +1,6 @@
 package week39;
 
-public class DiceWin_MakeCombination_조합_ByDFS {
+public class DiceWinByDFSAndBinarySearch {
     static int n;
     static int pick;
     static int[] selected;
