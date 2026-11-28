@@ -280,3 +280,13 @@
 | **수요일** | Lv.3 | **258709 주사위 고르기** — [https://school.programmers.co.kr/learn/courses/30/lessons/258709](https://school.programmers.co.kr/learn/courses/30/lessons/258709) | **12946 하노이의 탑** — [https://school.programmers.co.kr/learn/courses/30/lessons/12946](https://school.programmers.co.kr/learn/courses/30/lessons/12946) | **DFS + 백트래킹 + 브루트포스 / 조합 생성, 탐색 공간 분리 및 재귀 호출의 종료 조건과 상태 관리 안정화** |
 | **목요일** | Lv.1~Lv.2 | **150370 개인정보 수집 유효기간** — [https://school.programmers.co.kr/learn/courses/30/lessons/150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **77485 행렬 테두리 회전하기** — [https://school.programmers.co.kr/learn/courses/30/lessons/77485](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | **String API + Parsing + 시뮬레이션 / 날짜 문자열의 정수 변환, 경계값 처리 및 2차원 배열의 인덱스·상태 변경 구현 안정화** |
 | **금요일** | Lv.3 | **49191 순위 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/49191](https://school.programmers.co.kr/learn/courses/30/lessons/49191) | **43238 입국심사 (복습)** — [https://school.programmers.co.kr/learn/courses/30/lessons/43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | **플로이드 워셜 + 이분탐색 / 3중 반복문을 이용한 경로 관계 갱신 및 결정 문제 변환, Parametric Search와 경계값 처리 완성** |
+
+## WEEK 40.
+
+| 요일 | 난이도 | 문제 | 오늘의 포인트 |
+|---|---|---|---|
+| **월요일** | Lv.3 | **67259 경주로 건설** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/67259) | 다익스트라 변형 / BFS와 최단경로 선택 기준 / 방향별 상태 및 비용 관리 |
+| **화요일** | Lv.2 | **17683 방금그곡** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | String API + Parsing / 시간 계산 / 문자열 조건 처리 및 구현 안정화 |
+| **수요일** | Lv.2 | **72411 메뉴 리뉴얼** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | DFS + 백트래킹 + 조합 생성 / HashMap 빈도수 관리 및 중복 제거 |
+| **목요일** | Lv.3 | **43238 입국심사** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 이분탐색 / Parametric Search / 결정 문제 변환 및 경계값 처리 |
+| **금요일** | Lv.3 | **42861 섬 연결하기** — [프로그래머스 문제](https://school.programmers.co.kr/learn/courses/30/lessons/42861) | Greedy + 크루스칼(MST) / Union-Find / 사이클 판별 및 최소 비용 선택 |
